@@ -7,11 +7,11 @@ import java.util.*;
 
 public class PerformanceTesterConsole {
     private static final String OUTPUT_FILE = "performance_results3.txt";
-    private ArbolB arbol;
+    private ArbolBM arbol;
 
     private Map<String, List<Long>> operationTimes;
 
-    public PerformanceTesterConsole(ArbolB arbol) {
+    public PerformanceTesterConsole(ArbolBM arbol) {
         this.arbol = arbol;
         this.operationTimes = new HashMap<>();
         operationTimes.put("Insert", new ArrayList<>());
