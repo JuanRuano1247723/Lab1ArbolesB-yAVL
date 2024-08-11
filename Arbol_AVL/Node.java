@@ -1,58 +1,103 @@
 public class Node {
-    private int[] Id;
-    private String[] Valor;
-    private Node[] Hijos;
+    private int id;
+    private String valor;
+    private Node left;
+    private Node right;
     private int height;
 
     // Constructor
-    public Node(int capacidad) {
-        this.Id = new int[capacidad];
-        this.Valor = new String[capacidad];
-        this.Hijos = new Node[2 * capacidad];
-        this.height = 1;
+    public Node(int id, String valor) {
+        this.id = id;
+        this.valor = valor;
+        this.height = 1; 
     }
 
-    public void imprimir() {
-        System.out.print("[");
-        for (int i = 0; i < Id.length; i++) {
-            if (i < Id.length - 1) {
-                System.out.print(Id[i] + " | " + Valor[i] + " ");
-            } else {
-                System.out.print(Id[i] + " | " + Valor[i]);
-            }
-        }
-        System.out.print("]");
+    public int getId() {
+        return id;
     }
 
-    public String getValor(int index) {
-        return Valor[index];
+    public String getValor() {
+        return valor;
     }
 
-    public void setValor(int index, String valor) {
-        this.Valor[index] = valor;
+    public Node getLeft() {
+        return left;
     }
 
-    public int getId(int index) {
-        return Id[index];
-    }
-
-    public void setId(int index, int id) {
-        this.Id[index] = id;
+    public Node getRight() {
+        return right;
     }
 
     public int getHeight() {
         return height;
     }
 
+    // Setters
+    public void setId(int id) {
+        this.id = id;
+    }
+
+    public void setValor(String valor) {
+        this.valor = valor;
+    }
+
+    public void setLeft(Node left) {
+        this.left = left;
+    }
+
+    public void setRight(Node right) {
+        this.right = right;
+    }
+
     public void setHeight(int height) {
         this.height = height;
     }
 
-    public Node getHijo(int index) {
-        return Hijos[index];
+    public void updateHeight() {
+        int leftHeight = (left == null) ? 0 : left.getHeight();
+        int rightHeight = (right == null) ? 0 : right.getHeight();
+        height = Math.max(leftHeight, rightHeight) + 1;
     }
 
-    public void setHijo(int index, Node hijo) {
-        this.Hijos[index] = hijo;
+    public int getBalance() {
+        int leftHeight = (left == null) ? 0 : left.getHeight();
+        int rightHeight = (right == null) ? 0 : right.getHeight();
+        return leftHeight - rightHeight;
+    }
+
+    public Node rotateRight() {
+        Node newRoot = this.left;
+        Node temp = newRoot.getRight();
+
+        newRoot.setRight(this);
+        this.setLeft(temp);
+
+        this.updateHeight();
+        newRoot.updateHeight();
+
+        return newRoot; 
+    }
+
+    public Node rotateLeft() {
+        Node newRoot = this.right;
+        Node temp = newRoot.getLeft();
+
+        newRoot.setLeft(this);
+        this.setRight(temp);
+
+        this.updateHeight();
+        newRoot.updateHeight();
+
+        return newRoot; 
+    }
+
+    public Node rotateLeftRight() {
+        this.setLeft(this.getLeft().rotateLeft());
+        return this.rotateRight();
+    }
+
+    public Node rotateRightLeft() {
+        this.setRight(this.getRight().rotateRight());
+        return this.rotateLeft();
     }
 }
