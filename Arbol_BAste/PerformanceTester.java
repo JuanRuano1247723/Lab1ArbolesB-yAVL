@@ -7,9 +7,9 @@ import java.time.format.DateTimeFormatter;
 
 public class PerformanceTester {
     private static final String OUTPUT_FILE = "performance_results2.txt";
-    private ArbolB arbol;
+    private ArbolAste arbol;
 
-    public PerformanceTester(ArbolB arbol) {
+    public PerformanceTester(ArbolAste arbol) {
         this.arbol = arbol;
     }
 
