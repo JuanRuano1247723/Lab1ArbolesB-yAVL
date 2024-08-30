@@ -1,0 +1,21 @@
+Insert: 2024-08-11 19:35:13, 2024-08-11 19:35:13, 504200 ns, ID: 998, Nombre: Stephan
+Delete: 2024-08-11 19:35:13, 2024-08-11 19:35:13, 30500 ns, ID: 64, Encontrado: No, Nombre: 
+Search: 2024-08-11 19:35:13, 2024-08-11 19:35:13, 2400 ns, ID: 1481, Encontrado: No, Nombre: 
+Insert: 2024-08-11 19:35:13, 2024-08-11 19:35:13, 4500 ns, ID: 123, Nombre: Alice
+Insert: 2024-08-11 19:35:13, 2024-08-11 19:35:13, 9300 ns, ID: 234, Nombre: Bob
+Delete: 2024-08-11 19:35:13, 2024-08-11 19:35:13, 12400 ns, ID: 123, Encontrado: Sí, Nombre: Alice
+Search: 2024-08-11 19:35:13, 2024-08-11 19:35:13, 1600 ns, ID: 234, Encontrado: Sí, Nombre: Bob
+Insert: 2024-08-11 19:35:13, 2024-08-11 19:35:13, 6000 ns, ID: 345, Nombre: Charlie
+Insert: 2024-08-11 19:35:13, 2024-08-11 19:35:13, 3100 ns, ID: 456, Nombre: David
+Search: 2024-08-11 19:35:13, 2024-08-11 19:35:13, 1600 ns, ID: 345, Encontrado: Sí, Nombre: Charlie
+Delete: 2024-08-11 19:35:13, 2024-08-11 19:35:13, 24900 ns, ID: 345, Encontrado: Sí, Nombre: Charlie
+Insert: 2024-08-11 19:35:13, 2024-08-11 19:35:13, 3400 ns, ID: 567, Nombre: Eve
+Insert: 2024-08-11 19:35:13, 2024-08-11 19:35:13, 7100 ns, ID: 678, Nombre: Frank
+Search: 2024-08-11 19:35:13, 2024-08-11 19:35:13, 3100 ns, ID: 567, Encontrado: Sí, Nombre: Eve
+Delete: 2024-08-11 19:35:13, 2024-08-11 19:35:13, 7100 ns, ID: 456, Encontrado: Sí, Nombre: David
+Insert: 2024-08-11 19:35:13, 2024-08-11 19:35:13, 8500 ns, ID: 789, Nombre: Grace
+Insert: 2024-08-11 19:35:13, 2024-08-11 19:35:13, 9400 ns, ID: 890, Nombre: Hannah
+Search: 2024-08-11 19:35:13, 2024-08-11 19:35:13, 4000 ns, ID: 678, Encontrado: Sí, Nombre: Frank
+Insert: 2024-08-11 19:35:13, 2024-08-11 19:35:13, 7300 ns, ID: 910, Nombre: Ian
+Insert: 2024-08-11 19:35:13, 2024-08-11 19:35:13, 2700 ns, ID: 101, Nombre: Jack
+Delete: 2024-08-11 19:35:13, 2024-08-11 19:35:13, 5500 ns, ID: 789, Encontrado: Sí, Nombre: Grace

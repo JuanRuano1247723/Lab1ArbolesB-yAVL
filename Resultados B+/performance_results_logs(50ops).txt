@@ -1,0 +1,50 @@
+Insert: 2024-08-11 19:52:02, 2024-08-11 19:52:02, 7800 ns, ID: 998, Nombre: Stephan
+Delete: 2024-08-11 19:52:02, 2024-08-11 19:52:02, 2230900 ns, ID: 64, Encontrado: No, Nombre: 
+Search: 2024-08-11 19:52:02, 2024-08-11 19:52:02, 1500 ns, ID: 1481, Encontrado: No, Nombre: 
+Insert: 2024-08-11 19:52:02, 2024-08-11 19:52:02, 5200 ns, ID: 123, Nombre: Alice
+Insert: 2024-08-11 19:52:02, 2024-08-11 19:52:02, 3100 ns, ID: 234, Nombre: Bob
+Delete: 2024-08-11 19:52:02, 2024-08-11 19:52:02, 14500 ns, ID: 123, Encontrado: Sí, Nombre: Alice
+Search: 2024-08-11 19:52:02, 2024-08-11 19:52:02, 1700 ns, ID: 234, Encontrado: Sí, Nombre: Alice
+Insert: 2024-08-11 19:52:02, 2024-08-11 19:52:02, 1900 ns, ID: 345, Nombre: Charlie
+Insert: 2024-08-11 19:52:02, 2024-08-11 19:52:02, 1700 ns, ID: 456, Nombre: David
+Search: 2024-08-11 19:52:02, 2024-08-11 19:52:02, 1700 ns, ID: 345, Encontrado: Sí, Nombre: Charlie
+Delete: 2024-08-11 19:52:02, 2024-08-11 19:52:02, 9500 ns, ID: 345, Encontrado: Sí, Nombre: Charlie
+Insert: 2024-08-11 19:52:02, 2024-08-11 19:52:02, 1800 ns, ID: 567, Nombre: Eve
+Insert: 2024-08-11 19:52:02, 2024-08-11 19:52:02, 4500 ns, ID: 678, Nombre: Frank
+Search: 2024-08-11 19:52:02, 2024-08-11 19:52:02, 2500 ns, ID: 567, Encontrado: Sí, Nombre: Eve
+Delete: 2024-08-11 19:52:02, 2024-08-11 19:52:02, 3900 ns, ID: 456, Encontrado: Sí, Nombre: David
+Insert: 2024-08-11 19:52:02, 2024-08-11 19:52:02, 1900 ns, ID: 789, Nombre: Grace
+Insert: 2024-08-11 19:52:02, 2024-08-11 19:52:02, 4100 ns, ID: 890, Nombre: Hannah
+Search: 2024-08-11 19:52:02, 2024-08-11 19:52:02, 1400 ns, ID: 678, Encontrado: Sí, Nombre: Eve
+Insert: 2024-08-11 19:52:02, 2024-08-11 19:52:02, 5500 ns, ID: 910, Nombre: Ian
+Insert: 2024-08-11 19:52:02, 2024-08-11 19:52:02, 2200 ns, ID: 101, Nombre: Jack
+Delete: 2024-08-11 19:52:02, 2024-08-11 19:52:02, 9300 ns, ID: 789, Encontrado: Sí, Nombre: Grace
+Insert: 2024-08-11 19:52:02, 2024-08-11 19:52:02, 5000 ns, ID: 112, Nombre: Lily
+Insert: 2024-08-11 19:52:02, 2024-08-11 19:52:02, 1700 ns, ID: 1234, Nombre: Mike
+Search: 2024-08-11 19:52:02, 2024-08-11 19:52:02, 5800 ns, ID: 112, Encontrado: Sí, Nombre: Lily
+Delete: 2024-08-11 19:52:02, 2024-08-11 19:52:02, 5400 ns, ID: 112, Encontrado: Sí, Nombre: Lily
+Insert: 2024-08-11 19:52:02, 2024-08-11 19:52:02, 7300 ns, ID: 223, Nombre: Nancy
+Insert: 2024-08-11 19:52:02, 2024-08-11 19:52:02, 2500 ns, ID: 334, Nombre: Oscar
+Search: 2024-08-11 19:52:02, 2024-08-11 19:52:02, 2400 ns, ID: 1234, Encontrado: Sí, Nombre: Mike
+Delete: 2024-08-11 19:52:02, 2024-08-11 19:52:02, 4500 ns, ID: 1234, Encontrado: Sí, Nombre: Mike
+Insert: 2024-08-11 19:52:02, 2024-08-11 19:52:02, 8100 ns, ID: 445, Nombre: Paul
+Insert: 2024-08-11 19:52:02, 2024-08-11 19:52:02, 2100 ns, ID: 556, Nombre: Quinn
+Search: 2024-08-11 19:52:02, 2024-08-11 19:52:02, 2800 ns, ID: 223, Encontrado: Sí, Nombre: Nancy
+Delete: 2024-08-11 19:52:02, 2024-08-11 19:52:02, 5900 ns, ID: 334, Encontrado: Sí, Nombre: Oscar
+Insert: 2024-08-11 19:52:02, 2024-08-11 19:52:02, 2700 ns, ID: 667, Nombre: Rachel
+Insert: 2024-08-11 19:52:02, 2024-08-11 19:52:02, 2100 ns, ID: 778, Nombre: Steve
+Search: 2024-08-11 19:52:02, 2024-08-11 19:52:02, 1500 ns, ID: 445, Encontrado: Sí, Nombre: Paul
+Delete: 2024-08-11 19:52:02, 2024-08-11 19:52:02, 4700 ns, ID: 556, Encontrado: Sí, Nombre: Quinn
+Insert: 2024-08-11 19:52:02, 2024-08-11 19:52:02, 5100 ns, ID: 889, Nombre: Tracy
+Insert: 2024-08-11 19:52:02, 2024-08-11 19:52:02, 11200 ns, ID: 990, Nombre: Uma
+Search: 2024-08-11 19:52:02, 2024-08-11 19:52:02, 3500 ns, ID: 667, Encontrado: Sí, Nombre: Rachel
+Delete: 2024-08-11 19:52:02, 2024-08-11 19:52:02, 24600 ns, ID: 778, Encontrado: Sí, Nombre: Steve
+Insert: 2024-08-11 19:52:02, 2024-08-11 19:52:02, 13600 ns, ID: 102, Nombre: Victor
+Insert: 2024-08-11 19:52:02, 2024-08-11 19:52:02, 24500 ns, ID: 213, Nombre: Wendy
+Search: 2024-08-11 19:52:02, 2024-08-11 19:52:02, 3700 ns, ID: 889, Encontrado: Sí, Nombre: Steve
+Delete: 2024-08-11 19:52:02, 2024-08-11 19:52:02, 17900 ns, ID: 990, Encontrado: Sí, Nombre: Uma
+Insert: 2024-08-11 19:52:02, 2024-08-11 19:52:02, 3200 ns, ID: 324, Nombre: Xander
+Insert: 2024-08-11 19:52:02, 2024-08-11 19:52:02, 9000 ns, ID: 435, Nombre: Yara
+Search: 2024-08-11 19:52:02, 2024-08-11 19:52:02, 2500 ns, ID: 213, Encontrado: Sí, Nombre: Wendy
+Search: 2024-08-11 19:52:02, 2024-08-11 19:52:02, 2300 ns, ID: 435, Encontrado: Sí, Nombre: Yara
+Search: 2024-08-11 19:52:02, 2024-08-11 19:52:02, 1800 ns, ID: 123, Encontrado: No, Nombre: 

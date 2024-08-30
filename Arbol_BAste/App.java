@@ -5,7 +5,7 @@ import java.io.IOException;
 public class App {
 
     public static void main(String[] args) {
-        String filePath = "operaciones.txt";
+        String filePath = "new 3.txt";
         ArbolAste arbol = new ArbolAste(2);
         PerformanceTester tester = new PerformanceTester(arbol);
         PerformanceTesterConsole testerc = new PerformanceTesterConsole(arbol);

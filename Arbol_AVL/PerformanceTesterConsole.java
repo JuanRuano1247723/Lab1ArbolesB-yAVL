@@ -6,7 +6,7 @@ import java.time.format.DateTimeFormatter;
 import java.util.*;
 
 public class PerformanceTesterConsole {
-    private static final String OUTPUT_FILE = "performance_results3.txt";
+    private static final String OUTPUT_FILE = "performance_results(500ops).txt";
     private ArbolAVL arbol;
 
     private Map<String, List<Long>> operationTimes;
@@ -53,9 +53,9 @@ public class PerformanceTesterConsole {
     }
 
     private void showTop10() {
-        System.out.println("Top 10 Times for Each Operation:");
+        System.out.println("Top 10 Tiempos para cada Operacion:");
         try (BufferedWriter writer = new BufferedWriter(new FileWriter(OUTPUT_FILE, true))) {
-            writer.write("Top 10 Times for Each Operation:\n");
+            writer.write("Top 10 Tiempos para cada Operacion:\n");
             for (String operation : operationTimes.keySet()) {
                 List<Long> times = operationTimes.get(operation);
                 times.sort(Collections.reverseOrder());
@@ -71,9 +71,9 @@ public class PerformanceTesterConsole {
     }
 
     private void showAverageTimes() {
-        System.out.println("Average Times for Each Operation:");
+        System.out.println("Tiempos Promedio para cada Operacion:");
         try (BufferedWriter writer = new BufferedWriter(new FileWriter(OUTPUT_FILE, true))) {
-            writer.write("Average Times for Each Operation:\n");
+            writer.write("Tiempos Promedio para cada Operacion:\n");
             for (String operation : operationTimes.keySet()) {
                 List<Long> times = operationTimes.get(operation);
                 long sum = times.stream().mapToLong(Long::longValue).sum();
@@ -89,9 +89,9 @@ public class PerformanceTesterConsole {
     }
 
     private void showTotalTimes() {
-        System.out.println("Total Times for Each Operation:");
+        System.out.println("Tiempos Totales para cada Operacion:");
         try (BufferedWriter writer = new BufferedWriter(new FileWriter(OUTPUT_FILE, true))) {
-            writer.write("Total Times for Each Operation:\n");
+            writer.write("Tiempos Totales para cada Operacion:\n");
             for (String operation : operationTimes.keySet()) {
                 List<Long> times = operationTimes.get(operation);
                 long total = times.stream().mapToLong(Long::longValue).sum();

@@ -6,7 +6,7 @@ import java.time.format.DateTimeFormatter;
 
 
 public class PerformanceTester {
-    private static final String OUTPUT_FILE = "performance_results2.txt";
+    private static final String OUTPUT_FILE = "performance_results_logs(500ops).txt";
     private ArbolB arbol;
 
     public PerformanceTester(ArbolB arbol) {

@@ -1,0 +1,500 @@
+Insert: 2024-08-11 19:52:43, 2024-08-11 19:52:43, 8800 ns, ID: 1000, Nombre: Alpha
+Insert: 2024-08-11 19:52:43, 2024-08-11 19:52:43, 3100 ns, ID: 1001, Nombre: Beta
+Insert: 2024-08-11 19:52:43, 2024-08-11 19:52:43, 1500 ns, ID: 1002, Nombre: Gamma
+Insert: 2024-08-11 19:52:43, 2024-08-11 19:52:43, 5200 ns, ID: 1003, Nombre: Delta
+Insert: 2024-08-11 19:52:43, 2024-08-11 19:52:43, 8000 ns, ID: 1004, Nombre: Epsilon
+Insert: 2024-08-11 19:52:43, 2024-08-11 19:52:43, 1800 ns, ID: 1005, Nombre: Zeta
+Insert: 2024-08-11 19:52:43, 2024-08-11 19:52:43, 4700 ns, ID: 1006, Nombre: Eta
+Insert: 2024-08-11 19:52:43, 2024-08-11 19:52:43, 1800 ns, ID: 1007, Nombre: Theta
+Insert: 2024-08-11 19:52:43, 2024-08-11 19:52:43, 5400 ns, ID: 1008, Nombre: Iota
+Insert: 2024-08-11 19:52:43, 2024-08-11 19:52:43, 2400 ns, ID: 1009, Nombre: Kappa
+Delete: 2024-08-11 19:52:43, 2024-08-11 19:52:43, 25100 ns, ID: 1000, Encontrado: Sí, Nombre: Alpha
+Delete: 2024-08-11 19:52:43, 2024-08-11 19:52:43, 9000 ns, ID: 1001, Encontrado: Sí, Nombre: Beta
+Delete: 2024-08-11 19:52:43, 2024-08-11 19:52:43, 6000 ns, ID: 1002, Encontrado: Sí, Nombre: Gamma
+Delete: 2024-08-11 19:52:43, 2024-08-11 19:52:43, 5500 ns, ID: 1003, Encontrado: Sí, Nombre: Delta
+Delete: 2024-08-11 19:52:43, 2024-08-11 19:52:43, 5800 ns, ID: 1004, Encontrado: Sí, Nombre: Epsilon
+Search: 2024-08-11 19:52:43, 2024-08-11 19:52:43, 1800 ns, ID: 1005, Encontrado: Sí, Nombre: Zeta
+Search: 2024-08-11 19:52:43, 2024-08-11 19:52:43, 2500 ns, ID: 1006, Encontrado: Sí, Nombre: Eta
+Search: 2024-08-11 19:52:43, 2024-08-11 19:52:43, 3100 ns, ID: 1007, Encontrado: Sí, Nombre: Theta
+Search: 2024-08-11 19:52:43, 2024-08-11 19:52:43, 7300 ns, ID: 1008, Encontrado: Sí, Nombre: Iota
+Search: 2024-08-11 19:52:43, 2024-08-11 19:52:43, 2600 ns, ID: 1009, Encontrado: Sí, Nombre: Kappa
+Insert: 2024-08-11 19:52:43, 2024-08-11 19:52:43, 2800 ns, ID: 1010, Nombre: Lambda
+Insert: 2024-08-11 19:52:43, 2024-08-11 19:52:43, 4300 ns, ID: 1011, Nombre: Mu
+Insert: 2024-08-11 19:52:43, 2024-08-11 19:52:43, 7400 ns, ID: 1012, Nombre: Nu
+Insert: 2024-08-11 19:52:43, 2024-08-11 19:52:43, 2000 ns, ID: 1013, Nombre: Xi
+Insert: 2024-08-11 19:52:43, 2024-08-11 19:52:43, 4400 ns, ID: 1014, Nombre: Omicron
+Insert: 2024-08-11 19:52:43, 2024-08-11 19:52:43, 1900 ns, ID: 1015, Nombre: Pi
+Insert: 2024-08-11 19:52:43, 2024-08-11 19:52:43, 4000 ns, ID: 1016, Nombre: Rho
+Insert: 2024-08-11 19:52:43, 2024-08-11 19:52:43, 1900 ns, ID: 1017, Nombre: Sigma
+Insert: 2024-08-11 19:52:43, 2024-08-11 19:52:43, 4100 ns, ID: 1018, Nombre: Tau
+Insert: 2024-08-11 19:52:43, 2024-08-11 19:52:43, 1900 ns, ID: 1019, Nombre: Upsilon
+Delete: 2024-08-11 19:52:43, 2024-08-11 19:52:43, 14700 ns, ID: 1010, Encontrado: Sí, Nombre: Lambda
+Delete: 2024-08-11 19:52:43, 2024-08-11 19:52:43, 9300 ns, ID: 1011, Encontrado: Sí, Nombre: Mu
+Delete: 2024-08-11 19:52:43, 2024-08-11 19:52:43, 12700 ns, ID: 1012, Encontrado: Sí, Nombre: Nu
+Delete: 2024-08-11 19:52:43, 2024-08-11 19:52:43, 5600 ns, ID: 1013, Encontrado: Sí, Nombre: Xi
+Delete: 2024-08-11 19:52:43, 2024-08-11 19:52:43, 10000 ns, ID: 1014, Encontrado: Sí, Nombre: Omicron
+Search: 2024-08-11 19:52:43, 2024-08-11 19:52:43, 3500 ns, ID: 1015, Encontrado: Sí, Nombre: Pi
+Search: 2024-08-11 19:52:43, 2024-08-11 19:52:43, 2700 ns, ID: 1016, Encontrado: Sí, Nombre: Rho
+Search: 2024-08-11 19:52:43, 2024-08-11 19:52:43, 1900 ns, ID: 1017, Encontrado: Sí, Nombre: Sigma
+Search: 2024-08-11 19:52:43, 2024-08-11 19:52:43, 2500 ns, ID: 1018, Encontrado: Sí, Nombre: Tau
+Search: 2024-08-11 19:52:43, 2024-08-11 19:52:43, 1900 ns, ID: 1019, Encontrado: Sí, Nombre: Upsilon
+Insert: 2024-08-11 19:52:43, 2024-08-11 19:52:43, 5400 ns, ID: 1020, Nombre: Phi
+Insert: 2024-08-11 19:52:43, 2024-08-11 19:52:43, 2100 ns, ID: 1021, Nombre: Chi
+Insert: 2024-08-11 19:52:43, 2024-08-11 19:52:43, 4600 ns, ID: 1022, Nombre: Psi
+Insert: 2024-08-11 19:52:43, 2024-08-11 19:52:43, 2200 ns, ID: 1023, Nombre: Omega
+Insert: 2024-08-11 19:52:43, 2024-08-11 19:52:43, 4400 ns, ID: 1024, Nombre: Alpha2
+Insert: 2024-08-11 19:52:43, 2024-08-11 19:52:43, 1900 ns, ID: 1025, Nombre: Beta2
+Insert: 2024-08-11 19:52:43, 2024-08-11 19:52:43, 4600 ns, ID: 1026, Nombre: Gamma2
+Insert: 2024-08-11 19:52:43, 2024-08-11 19:52:43, 2900 ns, ID: 1027, Nombre: Delta2
+Insert: 2024-08-11 19:52:43, 2024-08-11 19:52:43, 5400 ns, ID: 1028, Nombre: Epsilon2
+Insert: 2024-08-11 19:52:43, 2024-08-11 19:52:43, 7000 ns, ID: 1029, Nombre: Zeta2
+Delete: 2024-08-11 19:52:43, 2024-08-11 19:52:43, 24600 ns, ID: 1020, Encontrado: Sí, Nombre: Phi
+Delete: 2024-08-11 19:52:43, 2024-08-11 19:52:43, 7200 ns, ID: 1021, Encontrado: Sí, Nombre: Chi
+Delete: 2024-08-11 19:52:43, 2024-08-11 19:52:43, 11800 ns, ID: 1022, Encontrado: Sí, Nombre: Psi
+Delete: 2024-08-11 19:52:43, 2024-08-11 19:52:43, 15900 ns, ID: 1023, Encontrado: Sí, Nombre: Omega
+Delete: 2024-08-11 19:52:43, 2024-08-11 19:52:43, 8400 ns, ID: 1024, Encontrado: Sí, Nombre: Alpha2
+Search: 2024-08-11 19:52:43, 2024-08-11 19:52:43, 6400 ns, ID: 1025, Encontrado: Sí, Nombre: Beta2
+Search: 2024-08-11 19:52:43, 2024-08-11 19:52:43, 2700 ns, ID: 1026, Encontrado: Sí, Nombre: Gamma2
+Search: 2024-08-11 19:52:43, 2024-08-11 19:52:43, 4500 ns, ID: 1027, Encontrado: Sí, Nombre: Delta2
+Search: 2024-08-11 19:52:43, 2024-08-11 19:52:43, 2000 ns, ID: 1028, Encontrado: Sí, Nombre: Epsilon2
+Search: 2024-08-11 19:52:43, 2024-08-11 19:52:43, 3800 ns, ID: 1029, Encontrado: Sí, Nombre: Zeta2
+Insert: 2024-08-11 19:52:43, 2024-08-11 19:52:43, 6000 ns, ID: 1030, Nombre: Eta2
+Insert: 2024-08-11 19:52:43, 2024-08-11 19:52:43, 2800 ns, ID: 1031, Nombre: Theta2
+Insert: 2024-08-11 19:52:43, 2024-08-11 19:52:43, 4600 ns, ID: 1032, Nombre: Iota2
+Insert: 2024-08-11 19:52:43, 2024-08-11 19:52:43, 22600 ns, ID: 1033, Nombre: Kappa2
+Insert: 2024-08-11 19:52:43, 2024-08-11 19:52:43, 6000 ns, ID: 1034, Nombre: Lambda2
+Insert: 2024-08-11 19:52:43, 2024-08-11 19:52:43, 10100 ns, ID: 1035, Nombre: Mu2
+Insert: 2024-08-11 19:52:43, 2024-08-11 19:52:43, 12900 ns, ID: 1036, Nombre: Nu2
+Insert: 2024-08-11 19:52:43, 2024-08-11 19:52:43, 9400 ns, ID: 1037, Nombre: Xi2
+Insert: 2024-08-11 19:52:43, 2024-08-11 19:52:43, 5800 ns, ID: 1038, Nombre: Omicron2
+Insert: 2024-08-11 19:52:43, 2024-08-11 19:52:43, 3200 ns, ID: 1039, Nombre: Pi2
+Delete: 2024-08-11 19:52:43, 2024-08-11 19:52:43, 16400 ns, ID: 1030, Encontrado: Sí, Nombre: Eta2
+Delete: 2024-08-11 19:52:43, 2024-08-11 19:52:43, 11700 ns, ID: 1031, Encontrado: Sí, Nombre: Theta2
+Delete: 2024-08-11 19:52:43, 2024-08-11 19:52:43, 11400 ns, ID: 1032, Encontrado: Sí, Nombre: Iota2
+Delete: 2024-08-11 19:52:43, 2024-08-11 19:52:43, 12500 ns, ID: 1033, Encontrado: Sí, Nombre: Kappa2
+Delete: 2024-08-11 19:52:43, 2024-08-11 19:52:43, 9800 ns, ID: 1034, Encontrado: Sí, Nombre: Lambda2
+Search: 2024-08-11 19:52:43, 2024-08-11 19:52:43, 3400 ns, ID: 1035, Encontrado: Sí, Nombre: Mu2
+Search: 2024-08-11 19:52:43, 2024-08-11 19:52:43, 2000 ns, ID: 1036, Encontrado: Sí, Nombre: Nu2
+Search: 2024-08-11 19:52:43, 2024-08-11 19:52:43, 1700 ns, ID: 1037, Encontrado: Sí, Nombre: Xi2
+Search: 2024-08-11 19:52:43, 2024-08-11 19:52:43, 1900 ns, ID: 1038, Encontrado: Sí, Nombre: Omicron2
+Search: 2024-08-11 19:52:43, 2024-08-11 19:52:43, 2200 ns, ID: 1039, Encontrado: Sí, Nombre: Pi2
+Insert: 2024-08-11 19:52:43, 2024-08-11 19:52:43, 5600 ns, ID: 1040, Nombre: Rho2
+Insert: 2024-08-11 19:52:43, 2024-08-11 19:52:43, 800 ns, ID: 1041, Nombre: Sigma2
+Insert: 2024-08-11 19:52:43, 2024-08-11 19:52:43, 4000 ns, ID: 1042, Nombre: Tau2
+Insert: 2024-08-11 19:52:43, 2024-08-11 19:52:43, 1000 ns, ID: 1043, Nombre: Upsilon2
+Insert: 2024-08-11 19:52:43, 2024-08-11 19:52:43, 3600 ns, ID: 1044, Nombre: Phi2
+Insert: 2024-08-11 19:52:43, 2024-08-11 19:52:43, 1300 ns, ID: 1045, Nombre: Chi2
+Insert: 2024-08-11 19:52:43, 2024-08-11 19:52:43, 6000 ns, ID: 1046, Nombre: Psi2
+Insert: 2024-08-11 19:52:43, 2024-08-11 19:52:43, 1300 ns, ID: 1047, Nombre: Omega2
+Insert: 2024-08-11 19:52:43, 2024-08-11 19:52:43, 16900 ns, ID: 1048, Nombre: Alpha3
+Insert: 2024-08-11 19:52:43, 2024-08-11 19:52:43, 6200 ns, ID: 1049, Nombre: Beta3
+Delete: 2024-08-11 19:52:43, 2024-08-11 19:52:43, 17500 ns, ID: 1040, Encontrado: Sí, Nombre: Rho2
+Delete: 2024-08-11 19:52:43, 2024-08-11 19:52:43, 7100 ns, ID: 1041, Encontrado: Sí, Nombre: Sigma2
+Delete: 2024-08-11 19:52:43, 2024-08-11 19:52:43, 13500 ns, ID: 1042, Encontrado: Sí, Nombre: Tau2
+Delete: 2024-08-11 19:52:43, 2024-08-11 19:52:43, 6500 ns, ID: 1043, Encontrado: Sí, Nombre: Upsilon2
+Delete: 2024-08-11 19:52:43, 2024-08-11 19:52:43, 6600 ns, ID: 1044, Encontrado: Sí, Nombre: Phi2
+Search: 2024-08-11 19:52:43, 2024-08-11 19:52:43, 2100 ns, ID: 1045, Encontrado: Sí, Nombre: Chi2
+Search: 2024-08-11 19:52:43, 2024-08-11 19:52:43, 2300 ns, ID: 1046, Encontrado: Sí, Nombre: Psi2
+Search: 2024-08-11 19:52:43, 2024-08-11 19:52:43, 1900 ns, ID: 1047, Encontrado: Sí, Nombre: Omega2
+Search: 2024-08-11 19:52:43, 2024-08-11 19:52:43, 2500 ns, ID: 1048, Encontrado: Sí, Nombre: Alpha3
+Search: 2024-08-11 19:52:43, 2024-08-11 19:52:43, 2600 ns, ID: 1049, Encontrado: Sí, Nombre: Beta3
+Insert: 2024-08-11 19:52:43, 2024-08-11 19:52:43, 7500 ns, ID: 1050, Nombre: Gamma3
+Insert: 2024-08-11 19:52:43, 2024-08-11 19:52:43, 1100 ns, ID: 1051, Nombre: Delta3
+Insert: 2024-08-11 19:52:43, 2024-08-11 19:52:43, 3700 ns, ID: 1052, Nombre: Epsilon3
+Insert: 2024-08-11 19:52:43, 2024-08-11 19:52:43, 900 ns, ID: 1053, Nombre: Zeta3
+Insert: 2024-08-11 19:52:43, 2024-08-11 19:52:43, 3400 ns, ID: 1054, Nombre: Eta3
+Insert: 2024-08-11 19:52:43, 2024-08-11 19:52:43, 3500 ns, ID: 1055, Nombre: Theta3
+Insert: 2024-08-11 19:52:43, 2024-08-11 19:52:43, 8700 ns, ID: 1056, Nombre: Iota3
+Insert: 2024-08-11 19:52:43, 2024-08-11 19:52:43, 1000 ns, ID: 1057, Nombre: Kappa3
+Insert: 2024-08-11 19:52:43, 2024-08-11 19:52:43, 3800 ns, ID: 1058, Nombre: Lambda3
+Insert: 2024-08-11 19:52:43, 2024-08-11 19:52:43, 1600 ns, ID: 1059, Nombre: Mu3
+Delete: 2024-08-11 19:52:43, 2024-08-11 19:52:43, 24600 ns, ID: 1050, Encontrado: Sí, Nombre: Gamma3
+Delete: 2024-08-11 19:52:43, 2024-08-11 19:52:43, 6900 ns, ID: 1051, Encontrado: Sí, Nombre: Delta3
+Delete: 2024-08-11 19:52:43, 2024-08-11 19:52:43, 8500 ns, ID: 1052, Encontrado: Sí, Nombre: Epsilon3
+Delete: 2024-08-11 19:52:43, 2024-08-11 19:52:43, 8300 ns, ID: 1053, Encontrado: Sí, Nombre: Zeta3
+Delete: 2024-08-11 19:52:43, 2024-08-11 19:52:43, 8800 ns, ID: 1054, Encontrado: Sí, Nombre: Eta3
+Search: 2024-08-11 19:52:43, 2024-08-11 19:52:43, 2500 ns, ID: 1055, Encontrado: Sí, Nombre: Theta3
+Search: 2024-08-11 19:52:43, 2024-08-11 19:52:43, 3000 ns, ID: 1056, Encontrado: Sí, Nombre: Iota3
+Search: 2024-08-11 19:52:43, 2024-08-11 19:52:43, 3100 ns, ID: 1057, Encontrado: Sí, Nombre: Kappa3
+Search: 2024-08-11 19:52:43, 2024-08-11 19:52:43, 2000 ns, ID: 1058, Encontrado: Sí, Nombre: Lambda3
+Search: 2024-08-11 19:52:43, 2024-08-11 19:52:43, 8600 ns, ID: 1059, Encontrado: Sí, Nombre: Mu3
+Insert: 2024-08-11 19:52:43, 2024-08-11 19:52:43, 5400 ns, ID: 1060, Nombre: Nu3
+Insert: 2024-08-11 19:52:43, 2024-08-11 19:52:43, 1300 ns, ID: 1061, Nombre: Xi3
+Insert: 2024-08-11 19:52:43, 2024-08-11 19:52:43, 6600 ns, ID: 1062, Nombre: Omicron3
+Insert: 2024-08-11 19:52:43, 2024-08-11 19:52:43, 1100 ns, ID: 1063, Nombre: Pi3
+Insert: 2024-08-11 19:52:43, 2024-08-11 19:52:43, 3800 ns, ID: 1064, Nombre: Rho3
+Insert: 2024-08-11 19:52:43, 2024-08-11 19:52:43, 1000 ns, ID: 1065, Nombre: Sigma3
+Insert: 2024-08-11 19:52:43, 2024-08-11 19:52:43, 5000 ns, ID: 1066, Nombre: Tau3
+Insert: 2024-08-11 19:52:43, 2024-08-11 19:52:43, 1300 ns, ID: 1067, Nombre: Upsilon3
+Insert: 2024-08-11 19:52:43, 2024-08-11 19:52:43, 4300 ns, ID: 1068, Nombre: Phi3
+Insert: 2024-08-11 19:52:43, 2024-08-11 19:52:43, 8700 ns, ID: 1069, Nombre: Chi3
+Delete: 2024-08-11 19:52:43, 2024-08-11 19:52:43, 25000 ns, ID: 1060, Encontrado: Sí, Nombre: Nu3
+Delete: 2024-08-11 19:52:43, 2024-08-11 19:52:43, 36400 ns, ID: 1061, Encontrado: Sí, Nombre: Xi3
+Delete: 2024-08-11 19:52:43, 2024-08-11 19:52:43, 43800 ns, ID: 1062, Encontrado: Sí, Nombre: Omicron3
+Delete: 2024-08-11 19:52:43, 2024-08-11 19:52:43, 10400 ns, ID: 1063, Encontrado: Sí, Nombre: Pi3
+Delete: 2024-08-11 19:52:43, 2024-08-11 19:52:43, 7600 ns, ID: 1064, Encontrado: Sí, Nombre: Rho3
+Search: 2024-08-11 19:52:43, 2024-08-11 19:52:43, 2500 ns, ID: 1065, Encontrado: Sí, Nombre: Sigma3
+Search: 2024-08-11 19:52:43, 2024-08-11 19:52:43, 1800 ns, ID: 1066, Encontrado: Sí, Nombre: Tau3
+Search: 2024-08-11 19:52:43, 2024-08-11 19:52:43, 2300 ns, ID: 1067, Encontrado: Sí, Nombre: Upsilon3
+Search: 2024-08-11 19:52:43, 2024-08-11 19:52:43, 1800 ns, ID: 1068, Encontrado: Sí, Nombre: Phi3
+Search: 2024-08-11 19:52:43, 2024-08-11 19:52:43, 3000 ns, ID: 1069, Encontrado: Sí, Nombre: Chi3
+Insert: 2024-08-11 19:52:43, 2024-08-11 19:52:43, 19400 ns, ID: 1070, Nombre: Psi3
+Insert: 2024-08-11 19:52:43, 2024-08-11 19:52:43, 2100 ns, ID: 1071, Nombre: Omega3
+Insert: 2024-08-11 19:52:43, 2024-08-11 19:52:43, 13000 ns, ID: 1072, Nombre: Alpha4
+Insert: 2024-08-11 19:52:43, 2024-08-11 19:52:43, 1900 ns, ID: 1073, Nombre: Beta4
+Insert: 2024-08-11 19:52:43, 2024-08-11 19:52:43, 7600 ns, ID: 1074, Nombre: Gamma4
+Insert: 2024-08-11 19:52:43, 2024-08-11 19:52:43, 7100 ns, ID: 1075, Nombre: Delta4
+Insert: 2024-08-11 19:52:43, 2024-08-11 19:52:43, 6600 ns, ID: 1076, Nombre: Epsilon4
+Insert: 2024-08-11 19:52:43, 2024-08-11 19:52:43, 1500 ns, ID: 1077, Nombre: Zeta4
+Insert: 2024-08-11 19:52:43, 2024-08-11 19:52:43, 7400 ns, ID: 1078, Nombre: Eta4
+Insert: 2024-08-11 19:52:43, 2024-08-11 19:52:43, 1300 ns, ID: 1079, Nombre: Theta4
+Delete: 2024-08-11 19:52:43, 2024-08-11 19:52:43, 17600 ns, ID: 1070, Encontrado: Sí, Nombre: Psi3
+Delete: 2024-08-11 19:52:43, 2024-08-11 19:52:43, 9900 ns, ID: 1071, Encontrado: Sí, Nombre: Omega3
+Delete: 2024-08-11 19:52:43, 2024-08-11 19:52:43, 15200 ns, ID: 1072, Encontrado: Sí, Nombre: Alpha4
+Delete: 2024-08-11 19:52:43, 2024-08-11 19:52:43, 14700 ns, ID: 1073, Encontrado: Sí, Nombre: Beta4
+Delete: 2024-08-11 19:52:43, 2024-08-11 19:52:43, 8100 ns, ID: 1074, Encontrado: Sí, Nombre: Gamma4
+Search: 2024-08-11 19:52:43, 2024-08-11 19:52:43, 1400 ns, ID: 1075, Encontrado: Sí, Nombre: Delta4
+Search: 2024-08-11 19:52:43, 2024-08-11 19:52:43, 1500 ns, ID: 1076, Encontrado: Sí, Nombre: Epsilon4
+Search: 2024-08-11 19:52:43, 2024-08-11 19:52:43, 1400 ns, ID: 1077, Encontrado: Sí, Nombre: Zeta4
+Search: 2024-08-11 19:52:43, 2024-08-11 19:52:43, 1500 ns, ID: 1078, Encontrado: Sí, Nombre: Eta4
+Search: 2024-08-11 19:52:43, 2024-08-11 19:52:43, 2400 ns, ID: 1079, Encontrado: Sí, Nombre: Theta4
+Insert: 2024-08-11 19:52:43, 2024-08-11 19:52:43, 9600 ns, ID: 1080, Nombre: Iota4
+Insert: 2024-08-11 19:52:43, 2024-08-11 19:52:43, 11600 ns, ID: 1081, Nombre: Kappa4
+Insert: 2024-08-11 19:52:43, 2024-08-11 19:52:43, 8500 ns, ID: 1082, Nombre: Lambda4
+Insert: 2024-08-11 19:52:43, 2024-08-11 19:52:43, 1600 ns, ID: 1083, Nombre: Mu4
+Insert: 2024-08-11 19:52:43, 2024-08-11 19:52:43, 5700 ns, ID: 1084, Nombre: Nu4
+Insert: 2024-08-11 19:52:43, 2024-08-11 19:52:43, 1500 ns, ID: 1085, Nombre: Xi4
+Insert: 2024-08-11 19:52:43, 2024-08-11 19:52:43, 6800 ns, ID: 1086, Nombre: Omicron4
+Insert: 2024-08-11 19:52:43, 2024-08-11 19:52:43, 1500 ns, ID: 1087, Nombre: Pi4
+Insert: 2024-08-11 19:52:43, 2024-08-11 19:52:43, 7200 ns, ID: 1088, Nombre: Rho4
+Insert: 2024-08-11 19:52:43, 2024-08-11 19:52:43, 10200 ns, ID: 1089, Nombre: Sigma4
+Delete: 2024-08-11 19:52:43, 2024-08-11 19:52:43, 20900 ns, ID: 1080, Encontrado: Sí, Nombre: Iota4
+Delete: 2024-08-11 19:52:43, 2024-08-11 19:52:43, 10300 ns, ID: 1081, Encontrado: Sí, Nombre: Kappa4
+Delete: 2024-08-11 19:52:43, 2024-08-11 19:52:43, 9900 ns, ID: 1082, Encontrado: Sí, Nombre: Lambda4
+Delete: 2024-08-11 19:52:43, 2024-08-11 19:52:43, 5400 ns, ID: 1083, Encontrado: Sí, Nombre: Mu4
+Delete: 2024-08-11 19:52:43, 2024-08-11 19:52:43, 7300 ns, ID: 1084, Encontrado: Sí, Nombre: Nu4
+Search: 2024-08-11 19:52:43, 2024-08-11 19:52:43, 2000 ns, ID: 1085, Encontrado: Sí, Nombre: Xi4
+Search: 2024-08-11 19:52:43, 2024-08-11 19:52:43, 3100 ns, ID: 1086, Encontrado: Sí, Nombre: Omicron4
+Search: 2024-08-11 19:52:43, 2024-08-11 19:52:43, 1300 ns, ID: 1087, Encontrado: Sí, Nombre: Pi4
+Search: 2024-08-11 19:52:43, 2024-08-11 19:52:43, 1200 ns, ID: 1088, Encontrado: Sí, Nombre: Rho4
+Search: 2024-08-11 19:52:43, 2024-08-11 19:52:43, 1200 ns, ID: 1089, Encontrado: Sí, Nombre: Sigma4
+Insert: 2024-08-11 19:52:43, 2024-08-11 19:52:43, 8900 ns, ID: 1090, Nombre: Tau4
+Insert: 2024-08-11 19:52:43, 2024-08-11 19:52:43, 1100 ns, ID: 1091, Nombre: Upsilon4
+Insert: 2024-08-11 19:52:43, 2024-08-11 19:52:43, 4200 ns, ID: 1092, Nombre: Phi4
+Insert: 2024-08-11 19:52:43, 2024-08-11 19:52:43, 1100 ns, ID: 1093, Nombre: Chi4
+Insert: 2024-08-11 19:52:43, 2024-08-11 19:52:43, 6000 ns, ID: 1094, Nombre: Psi4
+Insert: 2024-08-11 19:52:43, 2024-08-11 19:52:43, 4600 ns, ID: 1095, Nombre: Omega4
+Insert: 2024-08-11 19:52:43, 2024-08-11 19:52:43, 4600 ns, ID: 1096, Nombre: Alpha5
+Insert: 2024-08-11 19:52:43, 2024-08-11 19:52:43, 1000 ns, ID: 1097, Nombre: Beta5
+Insert: 2024-08-11 19:52:43, 2024-08-11 19:52:43, 6800 ns, ID: 1098, Nombre: Gamma5
+Insert: 2024-08-11 19:52:43, 2024-08-11 19:52:43, 1700 ns, ID: 1099, Nombre: Delta5
+Delete: 2024-08-11 19:52:43, 2024-08-11 19:52:43, 14500 ns, ID: 1090, Encontrado: Sí, Nombre: Tau4
+Delete: 2024-08-11 19:52:43, 2024-08-11 19:52:43, 16700 ns, ID: 1091, Encontrado: Sí, Nombre: Upsilon4
+Delete: 2024-08-11 19:52:43, 2024-08-11 19:52:43, 21600 ns, ID: 1092, Encontrado: Sí, Nombre: Phi4
+Delete: 2024-08-11 19:52:43, 2024-08-11 19:52:43, 8300 ns, ID: 1093, Encontrado: Sí, Nombre: Chi4
+Delete: 2024-08-11 19:52:43, 2024-08-11 19:52:43, 4800 ns, ID: 1094, Encontrado: Sí, Nombre: Psi4
+Search: 2024-08-11 19:52:43, 2024-08-11 19:52:43, 1500 ns, ID: 1095, Encontrado: Sí, Nombre: Omega4
+Search: 2024-08-11 19:52:43, 2024-08-11 19:52:43, 1500 ns, ID: 1096, Encontrado: Sí, Nombre: Alpha5
+Search: 2024-08-11 19:52:43, 2024-08-11 19:52:43, 1400 ns, ID: 1097, Encontrado: Sí, Nombre: Beta5
+Search: 2024-08-11 19:52:43, 2024-08-11 19:52:43, 1100 ns, ID: 1098, Encontrado: Sí, Nombre: Gamma5
+Search: 2024-08-11 19:52:43, 2024-08-11 19:52:43, 1200 ns, ID: 1099, Encontrado: Sí, Nombre: Delta5
+Insert: 2024-08-11 19:52:43, 2024-08-11 19:52:43, 7600 ns, ID: 1100, Nombre: Epsilon5
+Insert: 2024-08-11 19:52:43, 2024-08-11 19:52:43, 1100 ns, ID: 1101, Nombre: Zeta5
+Insert: 2024-08-11 19:52:43, 2024-08-11 19:52:43, 4100 ns, ID: 1102, Nombre: Eta5
+Insert: 2024-08-11 19:52:43, 2024-08-11 19:52:43, 1200 ns, ID: 1103, Nombre: Theta5
+Insert: 2024-08-11 19:52:43, 2024-08-11 19:52:43, 3900 ns, ID: 1104, Nombre: Iota5
+Insert: 2024-08-11 19:52:43, 2024-08-11 19:52:43, 900 ns, ID: 1105, Nombre: Kappa5
+Insert: 2024-08-11 19:52:43, 2024-08-11 19:52:43, 4000 ns, ID: 1106, Nombre: Lambda5
+Insert: 2024-08-11 19:52:43, 2024-08-11 19:52:43, 900 ns, ID: 1107, Nombre: Mu5
+Insert: 2024-08-11 19:52:43, 2024-08-11 19:52:43, 4300 ns, ID: 1108, Nombre: Nu5
+Insert: 2024-08-11 19:52:43, 2024-08-11 19:52:43, 4000 ns, ID: 1109, Nombre: Xi5
+Delete: 2024-08-11 19:52:43, 2024-08-11 19:52:43, 10200 ns, ID: 1100, Encontrado: Sí, Nombre: Epsilon5
+Delete: 2024-08-11 19:52:43, 2024-08-11 19:52:43, 4700 ns, ID: 1101, Encontrado: Sí, Nombre: Zeta5
+Delete: 2024-08-11 19:52:43, 2024-08-11 19:52:43, 6900 ns, ID: 1102, Encontrado: Sí, Nombre: Eta5
+Delete: 2024-08-11 19:52:43, 2024-08-11 19:52:43, 6900 ns, ID: 1103, Encontrado: Sí, Nombre: Theta5
+Delete: 2024-08-11 19:52:43, 2024-08-11 19:52:43, 5800 ns, ID: 1104, Encontrado: Sí, Nombre: Iota5
+Search: 2024-08-11 19:52:43, 2024-08-11 19:52:43, 1300 ns, ID: 1105, Encontrado: Sí, Nombre: Kappa5
+Search: 2024-08-11 19:52:43, 2024-08-11 19:52:43, 1600 ns, ID: 1106, Encontrado: Sí, Nombre: Lambda5
+Search: 2024-08-11 19:52:43, 2024-08-11 19:52:43, 2700 ns, ID: 1107, Encontrado: Sí, Nombre: Mu5
+Search: 2024-08-11 19:52:43, 2024-08-11 19:52:43, 2500 ns, ID: 1108, Encontrado: Sí, Nombre: Nu5
+Search: 2024-08-11 19:52:43, 2024-08-11 19:52:43, 2800 ns, ID: 1109, Encontrado: Sí, Nombre: Xi5
+Insert: 2024-08-11 19:52:43, 2024-08-11 19:52:43, 12700 ns, ID: 1110, Nombre: Omicron5
+Insert: 2024-08-11 19:52:43, 2024-08-11 19:52:43, 900 ns, ID: 1111, Nombre: Pi5
+Insert: 2024-08-11 19:52:43, 2024-08-11 19:52:43, 3900 ns, ID: 1112, Nombre: Rho5
+Insert: 2024-08-11 19:52:43, 2024-08-11 19:52:43, 900 ns, ID: 1113, Nombre: Sigma5
+Insert: 2024-08-11 19:52:43, 2024-08-11 19:52:43, 4100 ns, ID: 1114, Nombre: Tau5
+Insert: 2024-08-11 19:52:43, 2024-08-11 19:52:43, 3800 ns, ID: 1115, Nombre: Upsilon5
+Insert: 2024-08-11 19:52:43, 2024-08-11 19:52:43, 3700 ns, ID: 1116, Nombre: Phi5
+Insert: 2024-08-11 19:52:43, 2024-08-11 19:52:43, 1000 ns, ID: 1117, Nombre: Chi5
+Insert: 2024-08-11 19:52:43, 2024-08-11 19:52:43, 4300 ns, ID: 1118, Nombre: Psi5
+Insert: 2024-08-11 19:52:43, 2024-08-11 19:52:43, 800 ns, ID: 1119, Nombre: Omega5
+Delete: 2024-08-11 19:52:43, 2024-08-11 19:52:43, 21100 ns, ID: 1110, Encontrado: Sí, Nombre: Omicron5
+Delete: 2024-08-11 19:52:43, 2024-08-11 19:52:43, 5800 ns, ID: 1111, Encontrado: Sí, Nombre: Pi5
+Delete: 2024-08-11 19:52:43, 2024-08-11 19:52:43, 8400 ns, ID: 1112, Encontrado: Sí, Nombre: Rho5
+Delete: 2024-08-11 19:52:43, 2024-08-11 19:52:43, 4600 ns, ID: 1113, Encontrado: Sí, Nombre: Sigma5
+Delete: 2024-08-11 19:52:43, 2024-08-11 19:52:43, 6400 ns, ID: 1114, Encontrado: Sí, Nombre: Tau5
+Search: 2024-08-11 19:52:43, 2024-08-11 19:52:43, 1200 ns, ID: 1115, Encontrado: Sí, Nombre: Upsilon5
+Search: 2024-08-11 19:52:43, 2024-08-11 19:52:43, 1400 ns, ID: 1116, Encontrado: Sí, Nombre: Phi5
+Search: 2024-08-11 19:52:43, 2024-08-11 19:52:43, 1300 ns, ID: 1117, Encontrado: Sí, Nombre: Chi5
+Search: 2024-08-11 19:52:43, 2024-08-11 19:52:43, 1100 ns, ID: 1118, Encontrado: Sí, Nombre: Psi5
+Search: 2024-08-11 19:52:43, 2024-08-11 19:52:43, 1200 ns, ID: 1119, Encontrado: Sí, Nombre: Omega5
+Insert: 2024-08-11 19:52:43, 2024-08-11 19:52:43, 6000 ns, ID: 1120, Nombre: Alpha6
+Insert: 2024-08-11 19:52:43, 2024-08-11 19:52:43, 4400 ns, ID: 1121, Nombre: Beta6
+Insert: 2024-08-11 19:52:43, 2024-08-11 19:52:43, 4900 ns, ID: 1122, Nombre: Gamma6
+Insert: 2024-08-11 19:52:43, 2024-08-11 19:52:43, 1100 ns, ID: 1123, Nombre: Delta6
+Insert: 2024-08-11 19:52:43, 2024-08-11 19:52:43, 4000 ns, ID: 1124, Nombre: Epsilon6
+Insert: 2024-08-11 19:52:43, 2024-08-11 19:52:43, 1300 ns, ID: 1125, Nombre: Zeta6
+Insert: 2024-08-11 19:52:43, 2024-08-11 19:52:43, 7800 ns, ID: 1126, Nombre: Eta6
+Insert: 2024-08-11 19:52:43, 2024-08-11 19:52:43, 3700 ns, ID: 1127, Nombre: Theta6
+Insert: 2024-08-11 19:52:43, 2024-08-11 19:52:43, 13300 ns, ID: 1128, Nombre: Iota6
+Insert: 2024-08-11 19:52:43, 2024-08-11 19:52:43, 4300 ns, ID: 1129, Nombre: Kappa6
+Delete: 2024-08-11 19:52:43, 2024-08-11 19:52:43, 27600 ns, ID: 1120, Encontrado: Sí, Nombre: Alpha6
+Delete: 2024-08-11 19:52:43, 2024-08-11 19:52:43, 13800 ns, ID: 1121, Encontrado: Sí, Nombre: Beta6
+Delete: 2024-08-11 19:52:43, 2024-08-11 19:52:43, 11600 ns, ID: 1122, Encontrado: Sí, Nombre: Gamma6
+Delete: 2024-08-11 19:52:43, 2024-08-11 19:52:43, 5500 ns, ID: 1123, Encontrado: Sí, Nombre: Delta6
+Delete: 2024-08-11 19:52:43, 2024-08-11 19:52:43, 7900 ns, ID: 1124, Encontrado: Sí, Nombre: Epsilon6
+Search: 2024-08-11 19:52:43, 2024-08-11 19:52:43, 2200 ns, ID: 1125, Encontrado: Sí, Nombre: Zeta6
+Search: 2024-08-11 19:52:43, 2024-08-11 19:52:43, 8100 ns, ID: 1126, Encontrado: Sí, Nombre: Eta6
+Search: 2024-08-11 19:52:43, 2024-08-11 19:52:43, 2200 ns, ID: 1127, Encontrado: Sí, Nombre: Theta6
+Search: 2024-08-11 19:52:43, 2024-08-11 19:52:43, 2400 ns, ID: 1128, Encontrado: Sí, Nombre: Iota6
+Search: 2024-08-11 19:52:43, 2024-08-11 19:52:43, 1700 ns, ID: 1129, Encontrado: Sí, Nombre: Kappa6
+Insert: 2024-08-11 19:52:43, 2024-08-11 19:52:43, 5700 ns, ID: 1130, Nombre: Lambda6
+Insert: 2024-08-11 19:52:43, 2024-08-11 19:52:43, 1500 ns, ID: 1131, Nombre: Mu6
+Insert: 2024-08-11 19:52:43, 2024-08-11 19:52:43, 5700 ns, ID: 1132, Nombre: Nu6
+Insert: 2024-08-11 19:52:43, 2024-08-11 19:52:43, 900 ns, ID: 1133, Nombre: Xi6
+Insert: 2024-08-11 19:52:43, 2024-08-11 19:52:43, 3300 ns, ID: 1134, Nombre: Omicron6
+Insert: 2024-08-11 19:52:43, 2024-08-11 19:52:43, 2900 ns, ID: 1135, Nombre: Pi6
+Insert: 2024-08-11 19:52:43, 2024-08-11 19:52:43, 2400 ns, ID: 1136, Nombre: Rho6
+Insert: 2024-08-11 19:52:43, 2024-08-11 19:52:43, 1500 ns, ID: 1137, Nombre: Sigma6
+Insert: 2024-08-11 19:52:43, 2024-08-11 19:52:43, 6900 ns, ID: 1138, Nombre: Tau6
+Insert: 2024-08-11 19:52:43, 2024-08-11 19:52:43, 1000 ns, ID: 1139, Nombre: Upsilon6
+Delete: 2024-08-11 19:52:43, 2024-08-11 19:52:43, 12100 ns, ID: 1130, Encontrado: Sí, Nombre: Lambda6
+Delete: 2024-08-11 19:52:43, 2024-08-11 19:52:43, 7000 ns, ID: 1131, Encontrado: Sí, Nombre: Mu6
+Delete: 2024-08-11 19:52:43, 2024-08-11 19:52:43, 7000 ns, ID: 1132, Encontrado: Sí, Nombre: Nu6
+Delete: 2024-08-11 19:52:43, 2024-08-11 19:52:43, 19900 ns, ID: 1133, Encontrado: Sí, Nombre: Xi6
+Delete: 2024-08-11 19:52:43, 2024-08-11 19:52:43, 4700 ns, ID: 1134, Encontrado: Sí, Nombre: Omicron6
+Search: 2024-08-11 19:52:43, 2024-08-11 19:52:43, 1500 ns, ID: 1135, Encontrado: Sí, Nombre: Pi6
+Search: 2024-08-11 19:52:43, 2024-08-11 19:52:43, 4700 ns, ID: 1136, Encontrado: Sí, Nombre: Rho6
+Search: 2024-08-11 19:52:43, 2024-08-11 19:52:43, 1300 ns, ID: 1137, Encontrado: Sí, Nombre: Sigma6
+Search: 2024-08-11 19:52:43, 2024-08-11 19:52:43, 1500 ns, ID: 1138, Encontrado: Sí, Nombre: Tau6
+Search: 2024-08-11 19:52:43, 2024-08-11 19:52:43, 1500 ns, ID: 1139, Encontrado: Sí, Nombre: Upsilon6
+Insert: 2024-08-11 19:52:43, 2024-08-11 19:52:43, 5600 ns, ID: 1140, Nombre: Phi6
+Insert: 2024-08-11 19:52:43, 2024-08-11 19:52:43, 800 ns, ID: 1141, Nombre: Chi6
+Insert: 2024-08-11 19:52:43, 2024-08-11 19:52:43, 3100 ns, ID: 1142, Nombre: Psi6
+Insert: 2024-08-11 19:52:43, 2024-08-11 19:52:43, 700 ns, ID: 1143, Nombre: Omega6
+Insert: 2024-08-11 19:52:43, 2024-08-11 19:52:43, 2900 ns, ID: 1144, Nombre: Alpha7
+Insert: 2024-08-11 19:52:43, 2024-08-11 19:52:43, 700 ns, ID: 1145, Nombre: Beta7
+Insert: 2024-08-11 19:52:43, 2024-08-11 19:52:43, 2700 ns, ID: 1146, Nombre: Gamma7
+Insert: 2024-08-11 19:52:43, 2024-08-11 19:52:43, 600 ns, ID: 1147, Nombre: Delta7
+Insert: 2024-08-11 19:52:43, 2024-08-11 19:52:43, 2900 ns, ID: 1148, Nombre: Epsilon7
+Insert: 2024-08-11 19:52:43, 2024-08-11 19:52:43, 2700 ns, ID: 1149, Nombre: Zeta7
+Delete: 2024-08-11 19:52:43, 2024-08-11 19:52:43, 13200 ns, ID: 1140, Encontrado: Sí, Nombre: Phi6
+Delete: 2024-08-11 19:52:43, 2024-08-11 19:52:43, 6400 ns, ID: 1141, Encontrado: Sí, Nombre: Chi6
+Delete: 2024-08-11 19:52:43, 2024-08-11 19:52:43, 7000 ns, ID: 1142, Encontrado: Sí, Nombre: Psi6
+Delete: 2024-08-11 19:52:43, 2024-08-11 19:52:43, 6400 ns, ID: 1143, Encontrado: Sí, Nombre: Omega6
+Delete: 2024-08-11 19:52:43, 2024-08-11 19:52:43, 4700 ns, ID: 1144, Encontrado: Sí, Nombre: Alpha7
+Search: 2024-08-11 19:52:43, 2024-08-11 19:52:43, 1300 ns, ID: 1145, Encontrado: Sí, Nombre: Beta7
+Search: 2024-08-11 19:52:43, 2024-08-11 19:52:43, 2200 ns, ID: 1146, Encontrado: Sí, Nombre: Gamma7
+Search: 2024-08-11 19:52:43, 2024-08-11 19:52:43, 2900 ns, ID: 1147, Encontrado: Sí, Nombre: Delta7
+Search: 2024-08-11 19:52:43, 2024-08-11 19:52:43, 2800 ns, ID: 1148, Encontrado: Sí, Nombre: Epsilon7
+Search: 2024-08-11 19:52:43, 2024-08-11 19:52:43, 5500 ns, ID: 1149, Encontrado: Sí, Nombre: Zeta7
+Insert: 2024-08-11 19:52:43, 2024-08-11 19:52:43, 16200 ns, ID: 1150, Nombre: Eta7
+Insert: 2024-08-11 19:52:43, 2024-08-11 19:52:43, 3000 ns, ID: 1151, Nombre: Theta7
+Insert: 2024-08-11 19:52:43, 2024-08-11 19:52:43, 6700 ns, ID: 1152, Nombre: Iota7
+Insert: 2024-08-11 19:52:43, 2024-08-11 19:52:43, 1200 ns, ID: 1153, Nombre: Kappa7
+Insert: 2024-08-11 19:52:43, 2024-08-11 19:52:43, 9800 ns, ID: 1154, Nombre: Lambda7
+Insert: 2024-08-11 19:52:43, 2024-08-11 19:52:43, 7200 ns, ID: 1155, Nombre: Mu7
+Insert: 2024-08-11 19:52:43, 2024-08-11 19:52:43, 43700 ns, ID: 1156, Nombre: Nu7
+Insert: 2024-08-11 19:52:43, 2024-08-11 19:52:43, 1200 ns, ID: 1157, Nombre: Xi7
+Insert: 2024-08-11 19:52:43, 2024-08-11 19:52:43, 7600 ns, ID: 1158, Nombre: Omicron7
+Insert: 2024-08-11 19:52:43, 2024-08-11 19:52:43, 3300 ns, ID: 1159, Nombre: Pi7
+Delete: 2024-08-11 19:52:43, 2024-08-11 19:52:43, 27800 ns, ID: 1150, Encontrado: Sí, Nombre: Eta7
+Delete: 2024-08-11 19:52:43, 2024-08-11 19:52:43, 10900 ns, ID: 1151, Encontrado: Sí, Nombre: Theta7
+Delete: 2024-08-11 19:52:43, 2024-08-11 19:52:43, 12600 ns, ID: 1152, Encontrado: Sí, Nombre: Iota7
+Delete: 2024-08-11 19:52:43, 2024-08-11 19:52:43, 9400 ns, ID: 1153, Encontrado: Sí, Nombre: Kappa7
+Delete: 2024-08-11 19:52:43, 2024-08-11 19:52:43, 8300 ns, ID: 1154, Encontrado: Sí, Nombre: Lambda7
+Search: 2024-08-11 19:52:43, 2024-08-11 19:52:43, 3000 ns, ID: 1155, Encontrado: Sí, Nombre: Mu7
+Search: 2024-08-11 19:52:43, 2024-08-11 19:52:43, 5300 ns, ID: 1156, Encontrado: Sí, Nombre: Nu7
+Search: 2024-08-11 19:52:43, 2024-08-11 19:52:43, 2600 ns, ID: 1157, Encontrado: Sí, Nombre: Xi7
+Search: 2024-08-11 19:52:43, 2024-08-11 19:52:43, 2700 ns, ID: 1158, Encontrado: Sí, Nombre: Omicron7
+Search: 2024-08-11 19:52:43, 2024-08-11 19:52:43, 1700 ns, ID: 1159, Encontrado: Sí, Nombre: Pi7
+Insert: 2024-08-11 19:52:43, 2024-08-11 19:52:43, 7100 ns, ID: 1160, Nombre: Rho7
+Insert: 2024-08-11 19:52:43, 2024-08-11 19:52:43, 4600 ns, ID: 1161, Nombre: Sigma7
+Insert: 2024-08-11 19:52:43, 2024-08-11 19:52:43, 4900 ns, ID: 1162, Nombre: Tau7
+Insert: 2024-08-11 19:52:43, 2024-08-11 19:52:43, 1600 ns, ID: 1163, Nombre: Upsilon7
+Insert: 2024-08-11 19:52:43, 2024-08-11 19:52:43, 6500 ns, ID: 1164, Nombre: Phi7
+Insert: 2024-08-11 19:52:43, 2024-08-11 19:52:43, 800 ns, ID: 1165, Nombre: Chi7
+Insert: 2024-08-11 19:52:43, 2024-08-11 19:52:43, 4900 ns, ID: 1166, Nombre: Psi7
+Insert: 2024-08-11 19:52:43, 2024-08-11 19:52:43, 1200 ns, ID: 1167, Nombre: Omega7
+Insert: 2024-08-11 19:52:43, 2024-08-11 19:52:43, 4900 ns, ID: 1168, Nombre: Alpha8
+Insert: 2024-08-11 19:52:43, 2024-08-11 19:52:43, 6200 ns, ID: 1169, Nombre: Beta8
+Delete: 2024-08-11 19:52:43, 2024-08-11 19:52:43, 17300 ns, ID: 1160, Encontrado: Sí, Nombre: Rho7
+Delete: 2024-08-11 19:52:43, 2024-08-11 19:52:43, 7900 ns, ID: 1161, Encontrado: Sí, Nombre: Sigma7
+Delete: 2024-08-11 19:52:43, 2024-08-11 19:52:43, 8500 ns, ID: 1162, Encontrado: Sí, Nombre: Tau7
+Delete: 2024-08-11 19:52:43, 2024-08-11 19:52:43, 5800 ns, ID: 1163, Encontrado: Sí, Nombre: Upsilon7
+Delete: 2024-08-11 19:52:43, 2024-08-11 19:52:43, 5100 ns, ID: 1164, Encontrado: Sí, Nombre: Phi7
+Search: 2024-08-11 19:52:43, 2024-08-11 19:52:43, 1800 ns, ID: 1165, Encontrado: Sí, Nombre: Chi7
+Search: 2024-08-11 19:52:43, 2024-08-11 19:52:43, 3000 ns, ID: 1166, Encontrado: Sí, Nombre: Psi7
+Search: 2024-08-11 19:52:43, 2024-08-11 19:52:43, 4300 ns, ID: 1167, Encontrado: Sí, Nombre: Omega7
+Search: 2024-08-11 19:52:43, 2024-08-11 19:52:43, 4400 ns, ID: 1168, Encontrado: Sí, Nombre: Alpha8
+Search: 2024-08-11 19:52:43, 2024-08-11 19:52:43, 3400 ns, ID: 1169, Encontrado: Sí, Nombre: Beta8
+Insert: 2024-08-11 19:52:43, 2024-08-11 19:52:43, 7500 ns, ID: 1170, Nombre: Gamma8
+Insert: 2024-08-11 19:52:43, 2024-08-11 19:52:43, 3900 ns, ID: 1171, Nombre: Delta8
+Insert: 2024-08-11 19:52:43, 2024-08-11 19:52:43, 4100 ns, ID: 1172, Nombre: Epsilon8
+Insert: 2024-08-11 19:52:43, 2024-08-11 19:52:43, 800 ns, ID: 1173, Nombre: Zeta8
+Insert: 2024-08-11 19:52:43, 2024-08-11 19:52:43, 2600 ns, ID: 1174, Nombre: Eta8
+Insert: 2024-08-11 19:52:43, 2024-08-11 19:52:43, 2800 ns, ID: 1175, Nombre: Theta8
+Insert: 2024-08-11 19:52:43, 2024-08-11 19:52:43, 2700 ns, ID: 1176, Nombre: Iota8
+Insert: 2024-08-11 19:52:43, 2024-08-11 19:52:43, 700 ns, ID: 1177, Nombre: Kappa8
+Insert: 2024-08-11 19:52:43, 2024-08-11 19:52:43, 4900 ns, ID: 1178, Nombre: Lambda8
+Insert: 2024-08-11 19:52:43, 2024-08-11 19:52:43, 1300 ns, ID: 1179, Nombre: Mu8
+Delete: 2024-08-11 19:52:43, 2024-08-11 19:52:43, 18900 ns, ID: 1170, Encontrado: Sí, Nombre: Gamma8
+Delete: 2024-08-11 19:52:43, 2024-08-11 19:52:43, 13300 ns, ID: 1171, Encontrado: Sí, Nombre: Delta8
+Delete: 2024-08-11 19:52:43, 2024-08-11 19:52:43, 7000 ns, ID: 1172, Encontrado: Sí, Nombre: Epsilon8
+Delete: 2024-08-11 19:52:43, 2024-08-11 19:52:43, 5100 ns, ID: 1173, Encontrado: Sí, Nombre: Zeta8
+Delete: 2024-08-11 19:52:43, 2024-08-11 19:52:43, 6900 ns, ID: 1174, Encontrado: Sí, Nombre: Eta8
+Search: 2024-08-11 19:52:43, 2024-08-11 19:52:43, 2500 ns, ID: 1175, Encontrado: Sí, Nombre: Theta8
+Search: 2024-08-11 19:52:43, 2024-08-11 19:52:43, 1500 ns, ID: 1176, Encontrado: Sí, Nombre: Iota8
+Search: 2024-08-11 19:52:43, 2024-08-11 19:52:43, 1400 ns, ID: 1177, Encontrado: Sí, Nombre: Kappa8
+Search: 2024-08-11 19:52:43, 2024-08-11 19:52:43, 2300 ns, ID: 1178, Encontrado: Sí, Nombre: Lambda8
+Search: 2024-08-11 19:52:43, 2024-08-11 19:52:43, 4700 ns, ID: 1179, Encontrado: Sí, Nombre: Mu8
+Insert: 2024-08-11 19:52:43, 2024-08-11 19:52:43, 12600 ns, ID: 1180, Nombre: Nu8
+Insert: 2024-08-11 19:52:43, 2024-08-11 19:52:43, 1500 ns, ID: 1181, Nombre: Xi8
+Insert: 2024-08-11 19:52:43, 2024-08-11 19:52:43, 3100 ns, ID: 1182, Nombre: Omicron8
+Insert: 2024-08-11 19:52:43, 2024-08-11 19:52:43, 900 ns, ID: 1183, Nombre: Pi8
+Insert: 2024-08-11 19:52:43, 2024-08-11 19:52:43, 5000 ns, ID: 1184, Nombre: Rho8
+Insert: 2024-08-11 19:52:43, 2024-08-11 19:52:43, 700 ns, ID: 1185, Nombre: Sigma8
+Insert: 2024-08-11 19:52:43, 2024-08-11 19:52:43, 3100 ns, ID: 1186, Nombre: Tau8
+Insert: 2024-08-11 19:52:43, 2024-08-11 19:52:43, 800 ns, ID: 1187, Nombre: Upsilon8
+Insert: 2024-08-11 19:52:43, 2024-08-11 19:52:43, 3000 ns, ID: 1188, Nombre: Phi8
+Insert: 2024-08-11 19:52:43, 2024-08-11 19:52:43, 6700 ns, ID: 1189, Nombre: Chi8
+Delete: 2024-08-11 19:52:43, 2024-08-11 19:52:43, 12300 ns, ID: 1180, Encontrado: Sí, Nombre: Nu8
+Delete: 2024-08-11 19:52:43, 2024-08-11 19:52:43, 5100 ns, ID: 1181, Encontrado: Sí, Nombre: Xi8
+Delete: 2024-08-11 19:52:43, 2024-08-11 19:52:43, 7100 ns, ID: 1182, Encontrado: Sí, Nombre: Omicron8
+Delete: 2024-08-11 19:52:43, 2024-08-11 19:52:43, 6100 ns, ID: 1183, Encontrado: Sí, Nombre: Pi8
+Delete: 2024-08-11 19:52:43, 2024-08-11 19:52:43, 4800 ns, ID: 1184, Encontrado: Sí, Nombre: Rho8
+Search: 2024-08-11 19:52:43, 2024-08-11 19:52:43, 1200 ns, ID: 1185, Encontrado: Sí, Nombre: Sigma8
+Search: 2024-08-11 19:52:43, 2024-08-11 19:52:43, 1400 ns, ID: 1186, Encontrado: Sí, Nombre: Tau8
+Search: 2024-08-11 19:52:43, 2024-08-11 19:52:43, 1300 ns, ID: 1187, Encontrado: Sí, Nombre: Upsilon8
+Search: 2024-08-11 19:52:43, 2024-08-11 19:52:43, 1000 ns, ID: 1188, Encontrado: Sí, Nombre: Phi8
+Search: 2024-08-11 19:52:43, 2024-08-11 19:52:43, 1200 ns, ID: 1189, Encontrado: Sí, Nombre: Chi8
+Insert: 2024-08-11 19:52:43, 2024-08-11 19:52:43, 5400 ns, ID: 1190, Nombre: Psi8
+Insert: 2024-08-11 19:52:43, 2024-08-11 19:52:43, 700 ns, ID: 1191, Nombre: Omega8
+Insert: 2024-08-11 19:52:43, 2024-08-11 19:52:43, 3600 ns, ID: 1192, Nombre: Alpha9
+Insert: 2024-08-11 19:52:43, 2024-08-11 19:52:43, 18200 ns, ID: 1193, Nombre: Beta9
+Insert: 2024-08-11 19:52:43, 2024-08-11 19:52:43, 3600 ns, ID: 1194, Nombre: Gamma9
+Insert: 2024-08-11 19:52:43, 2024-08-11 19:52:43, 2900 ns, ID: 1195, Nombre: Delta9
+Insert: 2024-08-11 19:52:43, 2024-08-11 19:52:43, 5100 ns, ID: 1196, Nombre: Epsilon9
+Insert: 2024-08-11 19:52:43, 2024-08-11 19:52:43, 1900 ns, ID: 1197, Nombre: Zeta9
+Insert: 2024-08-11 19:52:43, 2024-08-11 19:52:43, 4000 ns, ID: 1198, Nombre: Eta9
+Insert: 2024-08-11 19:52:43, 2024-08-11 19:52:43, 1600 ns, ID: 1199, Nombre: Theta9
+Delete: 2024-08-11 19:52:43, 2024-08-11 19:52:43, 12500 ns, ID: 1190, Encontrado: Sí, Nombre: Psi8
+Delete: 2024-08-11 19:52:43, 2024-08-11 19:52:43, 5100 ns, ID: 1191, Encontrado: Sí, Nombre: Omega8
+Delete: 2024-08-11 19:52:43, 2024-08-11 19:52:43, 7200 ns, ID: 1192, Encontrado: Sí, Nombre: Alpha9
+Delete: 2024-08-11 19:52:43, 2024-08-11 19:52:43, 11600 ns, ID: 1193, Encontrado: Sí, Nombre: Beta9
+Delete: 2024-08-11 19:52:43, 2024-08-11 19:52:43, 5300 ns, ID: 1194, Encontrado: Sí, Nombre: Gamma9
+Search: 2024-08-11 19:52:43, 2024-08-11 19:52:43, 1300 ns, ID: 1195, Encontrado: Sí, Nombre: Delta9
+Search: 2024-08-11 19:52:43, 2024-08-11 19:52:43, 1300 ns, ID: 1196, Encontrado: Sí, Nombre: Epsilon9
+Search: 2024-08-11 19:52:43, 2024-08-11 19:52:43, 1600 ns, ID: 1197, Encontrado: Sí, Nombre: Zeta9
+Search: 2024-08-11 19:52:43, 2024-08-11 19:52:43, 1300 ns, ID: 1198, Encontrado: Sí, Nombre: Eta9
+Search: 2024-08-11 19:52:43, 2024-08-11 19:52:43, 1200 ns, ID: 1199, Encontrado: Sí, Nombre: Theta9
+Insert: 2024-08-11 19:52:43, 2024-08-11 19:52:43, 5600 ns, ID: 1200, Nombre: Iota9
+Insert: 2024-08-11 19:52:43, 2024-08-11 19:52:43, 2300 ns, ID: 1201, Nombre: Kappa9
+Insert: 2024-08-11 19:52:43, 2024-08-11 19:52:43, 2400 ns, ID: 1202, Nombre: Lambda9
+Insert: 2024-08-11 19:52:43, 2024-08-11 19:52:43, 600 ns, ID: 1203, Nombre: Mu9
+Insert: 2024-08-11 19:52:43, 2024-08-11 19:52:43, 3000 ns, ID: 1204, Nombre: Nu9
+Insert: 2024-08-11 19:52:43, 2024-08-11 19:52:43, 600 ns, ID: 1205, Nombre: Xi9
+Insert: 2024-08-11 19:52:43, 2024-08-11 19:52:43, 4400 ns, ID: 1206, Nombre: Omicron9
+Insert: 2024-08-11 19:52:43, 2024-08-11 19:52:43, 700 ns, ID: 1207, Nombre: Pi9
+Insert: 2024-08-11 19:52:43, 2024-08-11 19:52:43, 2500 ns, ID: 1208, Nombre: Rho9
+Insert: 2024-08-11 19:52:43, 2024-08-11 19:52:43, 2500 ns, ID: 1209, Nombre: Sigma9
+Delete: 2024-08-11 19:52:43, 2024-08-11 19:52:43, 14500 ns, ID: 1200, Encontrado: Sí, Nombre: Iota9
+Delete: 2024-08-11 19:52:43, 2024-08-11 19:52:43, 15200 ns, ID: 1201, Encontrado: Sí, Nombre: Kappa9
+Delete: 2024-08-11 19:52:43, 2024-08-11 19:52:43, 8600 ns, ID: 1202, Encontrado: Sí, Nombre: Lambda9
+Delete: 2024-08-11 19:52:43, 2024-08-11 19:52:43, 4500 ns, ID: 1203, Encontrado: Sí, Nombre: Mu9
+Delete: 2024-08-11 19:52:43, 2024-08-11 19:52:43, 4700 ns, ID: 1204, Encontrado: Sí, Nombre: Nu9
+Search: 2024-08-11 19:52:43, 2024-08-11 19:52:43, 3000 ns, ID: 1205, Encontrado: Sí, Nombre: Xi9
+Search: 2024-08-11 19:52:43, 2024-08-11 19:52:43, 1800 ns, ID: 1206, Encontrado: Sí, Nombre: Omicron9
+Search: 2024-08-11 19:52:43, 2024-08-11 19:52:43, 1800 ns, ID: 1207, Encontrado: Sí, Nombre: Pi9
+Search: 2024-08-11 19:52:43, 2024-08-11 19:52:43, 1200 ns, ID: 1208, Encontrado: Sí, Nombre: Rho9
+Search: 2024-08-11 19:52:43, 2024-08-11 19:52:43, 3400 ns, ID: 1209, Encontrado: Sí, Nombre: Sigma9
+Insert: 2024-08-11 19:52:43, 2024-08-11 19:52:43, 23200 ns, ID: 1210, Nombre: Tau9
+Insert: 2024-08-11 19:52:43, 2024-08-11 19:52:43, 2000 ns, ID: 1211, Nombre: Upsilon9
+Insert: 2024-08-11 19:52:43, 2024-08-11 19:52:43, 7800 ns, ID: 1212, Nombre: Phi9
+Insert: 2024-08-11 19:52:43, 2024-08-11 19:52:43, 1700 ns, ID: 1213, Nombre: Chi9
+Insert: 2024-08-11 19:52:43, 2024-08-11 19:52:43, 8100 ns, ID: 1214, Nombre: Psi9
+Insert: 2024-08-11 19:52:43, 2024-08-11 19:52:43, 6200 ns, ID: 1215, Nombre: Omega9
+Insert: 2024-08-11 19:52:43, 2024-08-11 19:52:43, 5700 ns, ID: 1216, Nombre: Alpha10
+Insert: 2024-08-11 19:52:43, 2024-08-11 19:52:43, 2000 ns, ID: 1217, Nombre: Beta10
+Insert: 2024-08-11 19:52:43, 2024-08-11 19:52:43, 6900 ns, ID: 1218, Nombre: Gamma10
+Insert: 2024-08-11 19:52:43, 2024-08-11 19:52:43, 1500 ns, ID: 1219, Nombre: Delta10
+Delete: 2024-08-11 19:52:43, 2024-08-11 19:52:43, 14300 ns, ID: 1210, Encontrado: Sí, Nombre: Tau9
+Delete: 2024-08-11 19:52:43, 2024-08-11 19:52:43, 7100 ns, ID: 1211, Encontrado: Sí, Nombre: Upsilon9
+Delete: 2024-08-11 19:52:43, 2024-08-11 19:52:43, 6100 ns, ID: 1212, Encontrado: Sí, Nombre: Phi9
+Delete: 2024-08-11 19:52:43, 2024-08-11 19:52:43, 5300 ns, ID: 1213, Encontrado: Sí, Nombre: Chi9
+Delete: 2024-08-11 19:52:43, 2024-08-11 19:52:43, 8000 ns, ID: 1214, Encontrado: Sí, Nombre: Psi9
+Search: 2024-08-11 19:52:43, 2024-08-11 19:52:43, 2000 ns, ID: 1215, Encontrado: Sí, Nombre: Omega9
+Search: 2024-08-11 19:52:43, 2024-08-11 19:52:43, 2300 ns, ID: 1216, Encontrado: Sí, Nombre: Alpha10
+Search: 2024-08-11 19:52:43, 2024-08-11 19:52:43, 1400 ns, ID: 1217, Encontrado: Sí, Nombre: Beta10
+Search: 2024-08-11 19:52:43, 2024-08-11 19:52:43, 1600 ns, ID: 1218, Encontrado: Sí, Nombre: Gamma10
+Search: 2024-08-11 19:52:43, 2024-08-11 19:52:43, 1400 ns, ID: 1219, Encontrado: Sí, Nombre: Delta10
+Insert: 2024-08-11 19:52:43, 2024-08-11 19:52:43, 11000 ns, ID: 1220, Nombre: Epsilon10
+Insert: 2024-08-11 19:52:43, 2024-08-11 19:52:43, 1600 ns, ID: 1221, Nombre: Zeta10
+Insert: 2024-08-11 19:52:43, 2024-08-11 19:52:43, 7800 ns, ID: 1222, Nombre: Eta10
+Insert: 2024-08-11 19:52:43, 2024-08-11 19:52:43, 2300 ns, ID: 1223, Nombre: Theta10
+Insert: 2024-08-11 19:52:43, 2024-08-11 19:52:43, 14000 ns, ID: 1224, Nombre: Iota10
+Insert: 2024-08-11 19:52:43, 2024-08-11 19:52:43, 900 ns, ID: 1225, Nombre: Kappa10
+Insert: 2024-08-11 19:52:43, 2024-08-11 19:52:43, 2700 ns, ID: 1226, Nombre: Lambda10
+Insert: 2024-08-11 19:52:43, 2024-08-11 19:52:43, 900 ns, ID: 1227, Nombre: Mu10
+Insert: 2024-08-11 19:52:43, 2024-08-11 19:52:43, 1200 ns, ID: 1228, Nombre: Nu10
+Insert: 2024-08-11 19:52:43, 2024-08-11 19:52:43, 1200 ns, ID: 1229, Nombre: Xi10
+Delete: 2024-08-11 19:52:43, 2024-08-11 19:52:43, 27400 ns, ID: 1220, Encontrado: Sí, Nombre: Epsilon10
+Delete: 2024-08-11 19:52:43, 2024-08-11 19:52:43, 8200 ns, ID: 1221, Encontrado: Sí, Nombre: Zeta10
+Delete: 2024-08-11 19:52:43, 2024-08-11 19:52:43, 7200 ns, ID: 1222, Encontrado: Sí, Nombre: Eta10
+Delete: 2024-08-11 19:52:43, 2024-08-11 19:52:43, 5200 ns, ID: 1223, Encontrado: Sí, Nombre: Theta10
+Delete: 2024-08-11 19:52:43, 2024-08-11 19:52:43, 3800 ns, ID: 1224, Encontrado: Sí, Nombre: Iota10
+Search: 2024-08-11 19:52:43, 2024-08-11 19:52:43, 1300 ns, ID: 1225, Encontrado: Sí, Nombre: Kappa10
+Search: 2024-08-11 19:52:43, 2024-08-11 19:52:43, 1900 ns, ID: 1226, Encontrado: Sí, Nombre: Lambda10
+Search: 2024-08-11 19:52:43, 2024-08-11 19:52:43, 1700 ns, ID: 1227, Encontrado: Sí, Nombre: Mu10
+Search: 2024-08-11 19:52:43, 2024-08-11 19:52:43, 1100 ns, ID: 1228, Encontrado: Sí, Nombre: Nu10
+Search: 2024-08-11 19:52:43, 2024-08-11 19:52:43, 1200 ns, ID: 1229, Encontrado: Sí, Nombre: Xi10
+Insert: 2024-08-11 19:52:43, 2024-08-11 19:52:43, 9500 ns, ID: 1230, Nombre: Omicron10
+Insert: 2024-08-11 19:52:43, 2024-08-11 19:52:43, 700 ns, ID: 1231, Nombre: Pi10
+Insert: 2024-08-11 19:52:43, 2024-08-11 19:52:43, 1300 ns, ID: 1232, Nombre: Rho10
+Insert: 2024-08-11 19:52:43, 2024-08-11 19:52:43, 900 ns, ID: 1233, Nombre: Sigma10
+Insert: 2024-08-11 19:52:43, 2024-08-11 19:52:43, 1600 ns, ID: 1234, Nombre: Tau10
+Insert: 2024-08-11 19:52:43, 2024-08-11 19:52:43, 1300 ns, ID: 1235, Nombre: Upsilon10
+Insert: 2024-08-11 19:52:43, 2024-08-11 19:52:43, 1200 ns, ID: 1236, Nombre: Phi10
+Insert: 2024-08-11 19:52:43, 2024-08-11 19:52:43, 1000 ns, ID: 1237, Nombre: Chi10
+Insert: 2024-08-11 19:52:43, 2024-08-11 19:52:43, 2100 ns, ID: 1238, Nombre: Psi10
+Insert: 2024-08-11 19:52:43, 2024-08-11 19:52:43, 1500 ns, ID: 1239, Nombre: Omega10
+Delete: 2024-08-11 19:52:43, 2024-08-11 19:52:43, 16400 ns, ID: 1230, Encontrado: Sí, Nombre: Omicron10
+Delete: 2024-08-11 19:52:43, 2024-08-11 19:52:43, 3800 ns, ID: 1231, Encontrado: Sí, Nombre: Pi10
+Delete: 2024-08-11 19:52:43, 2024-08-11 19:52:43, 13500 ns, ID: 1232, Encontrado: Sí, Nombre: Rho10
+Delete: 2024-08-11 19:52:43, 2024-08-11 19:52:43, 5100 ns, ID: 1233, Encontrado: Sí, Nombre: Sigma10
+Delete: 2024-08-11 19:52:43, 2024-08-11 19:52:43, 4800 ns, ID: 1234, Encontrado: Sí, Nombre: Tau10
+Search: 2024-08-11 19:52:43, 2024-08-11 19:52:43, 2100 ns, ID: 1235, Encontrado: Sí, Nombre: Upsilon10
+Search: 2024-08-11 19:52:43, 2024-08-11 19:52:43, 1500 ns, ID: 1236, Encontrado: Sí, Nombre: Phi10
+Search: 2024-08-11 19:52:43, 2024-08-11 19:52:43, 1900 ns, ID: 1237, Encontrado: Sí, Nombre: Chi10
+Search: 2024-08-11 19:52:43, 2024-08-11 19:52:43, 2400 ns, ID: 1238, Encontrado: Sí, Nombre: Psi10
+Search: 2024-08-11 19:52:43, 2024-08-11 19:52:43, 1600 ns, ID: 1239, Encontrado: Sí, Nombre: Omega10
+Insert: 2024-08-11 19:52:43, 2024-08-11 19:52:43, 2700 ns, ID: 1240, Nombre: Alpha11
+Insert: 2024-08-11 19:52:43, 2024-08-11 19:52:43, 1700 ns, ID: 1241, Nombre: Beta11
+Insert: 2024-08-11 19:52:43, 2024-08-11 19:52:43, 1200 ns, ID: 1242, Nombre: Gamma11
+Insert: 2024-08-11 19:52:43, 2024-08-11 19:52:43, 900 ns, ID: 1243, Nombre: Delta11
+Insert: 2024-08-11 19:52:43, 2024-08-11 19:52:43, 1100 ns, ID: 1244, Nombre: Epsilon11
+Insert: 2024-08-11 19:52:43, 2024-08-11 19:52:43, 900 ns, ID: 1245, Nombre: Zeta11
+Insert: 2024-08-11 19:52:43, 2024-08-11 19:52:43, 1000 ns, ID: 1246, Nombre: Eta11
+Insert: 2024-08-11 19:52:43, 2024-08-11 19:52:43, 900 ns, ID: 1247, Nombre: Theta11
+Insert: 2024-08-11 19:52:43, 2024-08-11 19:52:43, 1700 ns, ID: 1248, Nombre: Iota11
+Insert: 2024-08-11 19:52:43, 2024-08-11 19:52:43, 1500 ns, ID: 1249, Nombre: Kappa11
+Delete: 2024-08-11 19:52:43, 2024-08-11 19:52:43, 9000 ns, ID: 1240, Encontrado: Sí, Nombre: Alpha11
+Delete: 2024-08-11 19:52:43, 2024-08-11 19:52:43, 4300 ns, ID: 1241, Encontrado: Sí, Nombre: Beta11
+Delete: 2024-08-11 19:52:43, 2024-08-11 19:52:43, 7400 ns, ID: 1242, Encontrado: Sí, Nombre: Gamma11
+Delete: 2024-08-11 19:52:43, 2024-08-11 19:52:43, 5200 ns, ID: 1243, Encontrado: Sí, Nombre: Delta11
+Delete: 2024-08-11 19:52:43, 2024-08-11 19:52:43, 5500 ns, ID: 1244, Encontrado: Sí, Nombre: Epsilon11
+Search: 2024-08-11 19:52:43, 2024-08-11 19:52:43, 1300 ns, ID: 1245, Encontrado: Sí, Nombre: Zeta11
+Search: 2024-08-11 19:52:43, 2024-08-11 19:52:43, 1400 ns, ID: 1246, Encontrado: Sí, Nombre: Eta11
+Search: 2024-08-11 19:52:43, 2024-08-11 19:52:43, 2200 ns, ID: 1247, Encontrado: Sí, Nombre: Theta11
+Search: 2024-08-11 19:52:43, 2024-08-11 19:52:43, 3000 ns, ID: 1248, Encontrado: Sí, Nombre: Iota11
+Search: 2024-08-11 19:52:43, 2024-08-11 19:52:43, 2000 ns, ID: 1249, Encontrado: Sí, Nombre: Kappa11
