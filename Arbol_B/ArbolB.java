@@ -1,15 +1,15 @@
 public class ArbolB {
-    private Node root;
+    private NodeB root;
     private int t;
 
     // Constructor
     public ArbolB(int t) {
         this.t = t;
-        this.root = new Node(2 * t - 1, true);
+        this.root = new NodeB(2 * t - 1, true);
     }
 
-    public Node searchB(int num) {
-        Node temp = search(root, num);
+    public NodeB searchB(int num) {
+        NodeB temp = search(root, num);
 
         if (temp == null) {
             System.out.println("No se ha encontrado un nodo con el valor ingresado");
@@ -19,7 +19,7 @@ public class ArbolB {
         }
     }
 
-    private Node search(Node actual, int key) {
+    private NodeB search(NodeB actual, int key) {
         int i = 0; 
 
         while (i < actual.getNumKeys() && key > actual.getId(i)) {
@@ -38,10 +38,10 @@ public class ArbolB {
     }
 
     public void insert(int key, String valor) {
-        Node r = root;
+        NodeB r = root;
 
         if (r.getNumKeys() == ((2 * t) - 1)) {
-            Node s = new Node(2 * t - 1, false);
+            NodeB s = new NodeB(2 * t - 1, false);
             root = s;
             s.setHijo(0, r);
             split(s, 0, r);
@@ -51,8 +51,8 @@ public class ArbolB {
         }
     }
 
-    private void split(Node x, int i, Node y) {
-        Node z = new Node(2 * t - 1, y.hoja());
+    private void split(NodeB x, int i, NodeB y) {
+        NodeB z = new NodeB(2 * t - 1, y.hoja());
         z.setNumKeys(t - 1);
 
         for (int j = 0; j < (t - 1); j++) {
@@ -84,7 +84,7 @@ public class ArbolB {
         x.setNumKeys(x.getNumKeys() + 1);
     }
 
-    private void insertNonFull(Node x, int key, String valor) {
+    private void insertNonFull(NodeB x, int key, String valor) {
         int i = x.getNumKeys() - 1;
 
         if (x.hoja()) {
@@ -102,7 +102,7 @@ public class ArbolB {
                 i--;
             }
             i++;
-            Node child = x.getHijo(i);
+            NodeB child = x.getHijo(i);
             if (child.getNumKeys() == (2 * t - 1)) {
                 split(x, i, child);
                 if (key > x.getId(i)) {
@@ -117,7 +117,7 @@ public class ArbolB {
         print(root);
     }
 
-    private void print(Node n) {
+    private void print(NodeB n) {
         for (int i = 0; i < n.getNumKeys(); i++) {
             System.out.print(n.getId(i) + " | " + n.getValor(i) + " ");
         }
@@ -143,7 +143,7 @@ public class ArbolB {
         }
     }
 
-    private void delete(Node node, int key) {
+    private void delete(NodeB node, int key) {
         int idx = findKey(node, key);
 
         if (idx < node.getNumKeys() && node.getId(idx) == key) {
@@ -172,7 +172,7 @@ public class ArbolB {
         }
     }
 
-    private int findKey(Node node, int key) {
+    private int findKey(NodeB node, int key) {
         int idx = 0;
         while (idx < node.getNumKeys() && node.getId(idx) < key) {
             idx++;
@@ -180,7 +180,7 @@ public class ArbolB {
         return idx;
     }
 
-    private void removeFromLeaf(Node node, int idx) {
+    private void removeFromLeaf(NodeB node, int idx) {
         for (int i = idx + 1; i < node.getNumKeys(); ++i) {
             node.setId(i - 1, node.getId(i));
             node.setValor(i - 1, node.getValor(i));
@@ -188,7 +188,7 @@ public class ArbolB {
         node.setNumKeys(node.getNumKeys() - 1);
     }
 
-    private void removeFromNonLeaf(Node node, int idx) {
+    private void removeFromNonLeaf(NodeB node, int idx) {
         int key = node.getId(idx);
 
         if (node.getHijo(idx).getNumKeys() >= t) {
@@ -205,23 +205,23 @@ public class ArbolB {
         }
     }
 
-    private int getPredecessor(Node node, int idx) {
-        Node current = node.getHijo(idx);
+    private int getPredecessor(NodeB node, int idx) {
+        NodeB current = node.getHijo(idx);
         while (!current.hoja()) {
             current = current.getHijo(current.getNumKeys());
         }
         return current.getId(current.getNumKeys() - 1);
     }
 
-    private int getSuccessor(Node node, int idx) {
-        Node current = node.getHijo(idx + 1);
+    private int getSuccessor(NodeB node, int idx) {
+        NodeB current = node.getHijo(idx + 1);
         while (!current.hoja()) {
             current = current.getHijo(0);
         }
         return current.getId(0);
     }
 
-    private void fill(Node node, int idx) {
+    private void fill(NodeB node, int idx) {
         if (idx != 0 && node.getHijo(idx - 1).getNumKeys() >= t) {
             borrowFromPrev(node, idx);
         } else if (idx != node.getNumKeys() && node.getHijo(idx + 1).getNumKeys() >= t) {
@@ -235,9 +235,9 @@ public class ArbolB {
         }
     }
 
-    private void borrowFromPrev(Node node, int idx) {
-        Node child = node.getHijo(idx);
-        Node sibling = node.getHijo(idx - 1);
+    private void borrowFromPrev(NodeB node, int idx) {
+        NodeB child = node.getHijo(idx);
+        NodeB sibling = node.getHijo(idx - 1);
 
         for (int i = child.getNumKeys() - 1; i >= 0; --i) {
             child.setId(i + 1, child.getId(i));
@@ -264,9 +264,9 @@ public class ArbolB {
         sibling.setNumKeys(sibling.getNumKeys() - 1);
     }
 
-    private void borrowFromNext(Node node, int idx) {
-        Node child = node.getHijo(idx);
-        Node sibling = node.getHijo(idx + 1);
+    private void borrowFromNext(NodeB node, int idx) {
+        NodeB child = node.getHijo(idx);
+        NodeB sibling = node.getHijo(idx + 1);
 
         child.setId(child.getNumKeys(), node.getId(idx));
         child.setValor(child.getNumKeys(), node.getValor(idx));
@@ -293,9 +293,9 @@ public class ArbolB {
         sibling.setNumKeys(sibling.getNumKeys() - 1);
     }
 
-    private void merge(Node node, int idx) {
-        Node child = node.getHijo(idx);
-        Node sibling = node.getHijo(idx + 1);
+    private void merge(NodeB node, int idx) {
+        NodeB child = node.getHijo(idx);
+        NodeB sibling = node.getHijo(idx + 1);
 
         child.setId(t - 1, node.getId(idx));
         child.setValor(t - 1, node.getValor(idx));

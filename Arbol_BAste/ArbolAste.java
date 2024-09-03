@@ -1,12 +1,12 @@
 public class ArbolAste {
 
-    private Node root;
+    private NodeAste root;
     private int t; 
 
     // Constructor
     public ArbolAste(int t) {
         this.t = t;
-        this.root = new Node(2 * t - 1, true);
+        this.root = new NodeAste(2 * t - 1, true);
     }
 
     public void traverse() {
@@ -15,7 +15,7 @@ public class ArbolAste {
         }
     }
 
-    private void traverse(Node node) {
+    private void traverse(NodeAste node) {
         int i;
         for (i = 0; i < node.getNumKeys(); i++) {
             if (!node.isLeaf()) {
@@ -29,11 +29,11 @@ public class ArbolAste {
         }
     }
 
-    public Node searchB(int k) {
+    public NodeAste searchB(int k) {
         return (root == null) ? null : search(root, k);
     }
 
-    private Node search(Node node, int k) {
+    private NodeAste search(NodeAste node, int k) {
         int i = 0;
         while (i < node.getNumKeys() && k > node.getId(i)) {
             i++;
@@ -51,9 +51,9 @@ public class ArbolAste {
     }
 
     public void insert(int k, String valor) {
-        Node r = root;
+        NodeAste r = root;
         if (r.getNumKeys() == (2 * t - 1)) {
-            Node s = new Node(2 * t - 1, false);
+            NodeAste s = new NodeAste(2 * t - 1, false);
             root = s;
             s.setHijo(0, r);
             splitChild(s, 0, r);
@@ -63,7 +63,7 @@ public class ArbolAste {
         }
     }
 
-    private void insertNonFull(Node node, int k, String valor) {
+    private void insertNonFull(NodeAste node, int k, String valor) {
         int i = node.getNumKeys() - 1;
 
         if (node.isLeaf()) {
@@ -90,8 +90,8 @@ public class ArbolAste {
         }
     }
 
-    private void splitChild(Node node, int i, Node y) {
-        Node z = new Node(2 * t - 1, y.isLeaf());
+    private void splitChild(NodeAste node, int i, NodeAste y) {
+        NodeAste z = new NodeAste(2 * t - 1, y.isLeaf());
         z.setNumKeys(t - 1);
         for (int j = 0; j < t - 1; j++) {
             z.setId(j, y.getId(j + t));
@@ -139,7 +139,7 @@ public class ArbolAste {
         }
     }
 
-    private void delete(Node node, int k) {
+    private void delete(NodeAste node, int k) {
         int idx = findKey(node, k);
 
         if (idx < node.getNumKeys() && node.getId(idx) == k) {
@@ -168,7 +168,7 @@ public class ArbolAste {
         }
     }
 
-    private int findKey(Node node, int k) {
+    private int findKey(NodeAste node, int k) {
         int idx = 0;
         while (idx < node.getNumKeys() && node.getId(idx) < k) {
             ++idx;
@@ -176,7 +176,7 @@ public class ArbolAste {
         return idx;
     }
 
-    private void removeFromLeaf(Node node, int idx) {
+    private void removeFromLeaf(NodeAste node, int idx) {
         for (int i = idx + 1; i < node.getNumKeys(); ++i) {
             node.setId(i - 1, node.getId(i));
             node.setValor(i - 1, node.getValor(i));
@@ -184,16 +184,16 @@ public class ArbolAste {
         node.setNumKeys(node.getNumKeys() - 1);
     }
 
-    private void removeFromNonLeaf(Node node, int idx) {
+    private void removeFromNonLeaf(NodeAste node, int idx) {
         int k = node.getId(idx);
 
         if (node.getHijo(idx).getNumKeys() >= t) {
-            Node pred = getPredecessor(node, idx);
+            NodeAste pred = getPredecessor(node, idx);
             node.setId(idx, pred.getId(pred.getNumKeys() - 1));
             node.setValor(idx, pred.getValor(pred.getNumKeys() - 1));
             delete(node.getHijo(idx), pred.getId(pred.getNumKeys() - 1));
         } else if (node.getHijo(idx + 1).getNumKeys() >= t) {
-            Node succ = getSuccessor(node, idx);
+            NodeAste succ = getSuccessor(node, idx);
             node.setId(idx, succ.getId(0));
             node.setValor(idx, succ.getValor(0));
             delete(node.getHijo(idx + 1), succ.getId(0));
@@ -203,23 +203,23 @@ public class ArbolAste {
         }
     }
 
-    private Node getPredecessor(Node node, int idx) {
-        Node cur = node.getHijo(idx);
+    private NodeAste getPredecessor(NodeAste node, int idx) {
+        NodeAste cur = node.getHijo(idx);
         while (!cur.isLeaf()) {
             cur = cur.getHijo(cur.getNumKeys());
         }
         return cur;
     }
 
-    private Node getSuccessor(Node node, int idx) {
-        Node cur = node.getHijo(idx + 1);
+    private NodeAste getSuccessor(NodeAste node, int idx) {
+        NodeAste cur = node.getHijo(idx + 1);
         while (!cur.isLeaf()) {
             cur = cur.getHijo(0);
         }
         return cur;
     }
 
-    private void fill(Node node, int idx) {
+    private void fill(NodeAste node, int idx) {
         if (idx != 0 && node.getHijo(idx - 1).getNumKeys() >= t) {
             borrowFromPrev(node, idx);
         } else if (idx != node.getNumKeys() && node.getHijo(idx + 1).getNumKeys() >= t) {
@@ -233,9 +233,9 @@ public class ArbolAste {
         }
     }
 
-    private void borrowFromPrev(Node node, int idx) {
-        Node child = node.getHijo(idx);
-        Node sibling = node.getHijo(idx - 1);
+    private void borrowFromPrev(NodeAste node, int idx) {
+        NodeAste child = node.getHijo(idx);
+        NodeAste sibling = node.getHijo(idx - 1);
 
         for (int i = child.getNumKeys() - 1; i >= 0; --i) {
             child.setId(i + 1, child.getId(i));
@@ -262,9 +262,9 @@ public class ArbolAste {
         sibling.setNumKeys(sibling.getNumKeys() - 1);
     }
 
-    private void borrowFromNext(Node node, int idx) {
-        Node child = node.getHijo(idx);
-        Node sibling = node.getHijo(idx + 1);
+    private void borrowFromNext(NodeAste node, int idx) {
+        NodeAste child = node.getHijo(idx);
+        NodeAste sibling = node.getHijo(idx + 1);
 
         child.setId(child.getNumKeys(), node.getId(idx));
         child.setValor(child.getNumKeys(), node.getValor(idx));
@@ -291,9 +291,9 @@ public class ArbolAste {
         sibling.setNumKeys(sibling.getNumKeys() - 1);
     }
 
-    private void merge(Node node, int idx) {
-        Node child = node.getHijo(idx);
-        Node sibling = node.getHijo(idx + 1);
+    private void merge(NodeAste node, int idx) {
+        NodeAste child = node.getHijo(idx);
+        NodeAste sibling = node.getHijo(idx + 1);
 
         child.setId(t - 1, node.getId(idx));
         child.setValor(t - 1, node.getValor(idx));

@@ -1,11 +1,11 @@
 public class ArbolAVL {
-    private Node root;
+    private NodeAVL root;
 
-    public Node search(int id) {
+    public NodeAVL search(int id) {
         return searchNode(root, id);
     }
 
-    private Node searchNode(Node node, int id) {
+    private NodeAVL searchNode(NodeAVL node, int id) {
         if (node == null || node.getId() == id) {
             return node;
         }
@@ -21,9 +21,9 @@ public class ArbolAVL {
         root = insertNode(root, id, valor);
     }
 
-    private Node insertNode(Node node, int id, String valor) {
+    private NodeAVL insertNode(NodeAVL node, int id, String valor) {
         if (node == null) {
-            return new Node(id, valor);
+            return new NodeAVL(id, valor);
         }
 
         if (id < node.getId()) {
@@ -63,7 +63,7 @@ public class ArbolAVL {
         root = deleteNode(root, id);
     }
 
-    private Node deleteNode(Node node, int id) {
+    private NodeAVL deleteNode(NodeAVL node, int id) {
         if (node == null) {
             return node;
         }
@@ -74,7 +74,7 @@ public class ArbolAVL {
             node.setRight(deleteNode(node.getRight(), id));
         } else {
             if ((node.getLeft() == null) || (node.getRight() == null)) {
-                Node temp = null;
+                NodeAVL temp = null;
                 if (temp == node.getLeft()) {
                     temp = node.getRight();
                 } else {
@@ -88,7 +88,7 @@ public class ArbolAVL {
                     node = temp;
                 }
             } else {
-                Node temp = minValueNode(node.getRight());
+                NodeAVL temp = minValueNode(node.getRight());
 
                 node.setId(temp.getId());
                 node.setValor(temp.getValor());
@@ -125,8 +125,8 @@ public class ArbolAVL {
         return node;
     }
 
-    private Node minValueNode(Node node) {
-        Node current = node;
+    private NodeAVL minValueNode(NodeAVL node) {
+        NodeAVL current = node;
 
         while (current.getLeft() != null) {
             current = current.getLeft();
